@@ -284,7 +284,7 @@ PreviousPage.TextScaled = true
 PreviousPage.TextSize = 14.000
 PreviousPage.TextWrapped = true
 PreviousPage.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/py1yBR6n'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Required%20Items%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -339,7 +339,7 @@ Home.TextScaled = true
 Home.TextSize = 14.000
 Home.TextWrapped = true
 Home.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 MainFrame:Destroy()
 end)
 
@@ -357,7 +357,7 @@ Scripts.TextScaled = true
 Scripts.TextSize = 14.000
 Scripts.TextWrapped = true
 Scripts.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/z49BZPbQ'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -391,7 +391,7 @@ GUIS.TextScaled = true
 GUIS.TextSize = 14.000
 GUIS.TextWrapped = true
 GUIS.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/fJwJk2Cg'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20GUIS%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -409,7 +409,7 @@ Animations.TextScaled = true
 Animations.TextSize = 14.000
 Animations.TextWrapped = true
 Animations.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/CjisjrL2'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Animations%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -427,7 +427,7 @@ Commands.TextScaled = true
 Commands.TextSize = 14.000
 Commands.TextWrapped = true
 Commands.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/PG4XTHj5'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Commands%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -445,7 +445,7 @@ OtherHubs.TextScaled = true
 OtherHubs.TextSize = 14.000
 OtherHubs.TextWrapped = true
 OtherHubs.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/J6X4ad5p'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Other%20Hubs%20Scripts%20Page%201'),true))()
 MainFrame:Destroy()
 end)
 
@@ -463,7 +463,7 @@ APIExecutor.TextScaled = true
 APIExecutor.TextSize = 14.000
 APIExecutor.TextWrapped = true
 APIExecutor.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/tZX9kYRa'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20API%20Executor%20Visibility'),true))()
 MainFrame:Destroy()
 end)
 
