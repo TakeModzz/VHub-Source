@@ -132,7 +132,7 @@ EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/r8cas5td'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Among%20Us%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -153,7 +153,7 @@ EXPLOIT2.TextWrapped = true
 EXPLOIT2.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/5CBjgYbq'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Hoverboard%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -174,7 +174,7 @@ EXPLOIT3.TextWrapped = true
 EXPLOIT3.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet("https://pastebin.com/raw/RwSPJ08B", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Monster%20Page", true))()
 end)
 
 UICorner_13.Parent = EXPLOIT3
@@ -193,7 +193,7 @@ EXPLOIT4.TextWrapped = true
 EXPLOIT4.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/WJ3L4fwW'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/AI%20Soldier%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -214,7 +214,7 @@ EXPLOIT5.TextWrapped = true
 EXPLOIT5.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/UukxQ044'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Sword%20Slasher%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -235,7 +235,7 @@ EXPLOIT6.TextWrapped = true
 EXPLOIT6.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/PQDryWs5'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Copter%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -256,7 +256,7 @@ EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/53HynbD9'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Dog%20Pet%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -277,7 +277,7 @@ EXPLOIT8.TextWrapped = true
 EXPLOIT8.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/CbbrtVTA'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Guts%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
@@ -298,7 +298,7 @@ EXPLOIT9.TextWrapped = true
 EXPLOIT9.MouseButton1Down:connect(function()
 MainFrame:Destroy()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-loadstring(game:HttpGet(('https://pastebin.com/raw/dRnM4htR'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Seitama%20Page'),true))()
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
