@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(('https://pastebin.com/raw/eyTq84Sd'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Blacklist%20System'),true))()
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
 
 -- Gui to Lua
