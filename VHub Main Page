@@ -1,0 +1,239 @@
+if VHub_LOADED and not _G.VHub_DEBUG == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Notice!";
+	Text = "VHub Is Already Loaded!";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+	return
+end
+
+repeat wait() until game:IsLoaded()
+
+pcall(function() getgenv().VHub_LOADED = true end)
+
+local VHubCoreScreen = Instance.new("Folder")
+local DragScreen = Instance.new("ScreenGui")
+local DragFrame = Instance.new("Frame")
+local UICrner = Instance.new("UICorner")
+
+VHubCoreScreen.Name = "VHubCoreScreen" 
+VHubCoreScreen.Parent = game.CoreGui
+
+DragScreen.Name = "DragScreen"
+DragScreen.Parent = VHubCoreScreen
+DragScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DragScreen.ResetOnSpawn = false
+
+DragFrame.Name = "DragFrame"
+DragFrame.Parent = DragScreen
+DragFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DragFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+DragFrame.Size = UDim2.new(0, 387, 0, 239)
+DragFrame.Active = true
+DragFrame.Draggable = true
+DragFrame.Visible = false
+
+UICrner.Parent = DragFrame
+
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DesignFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+local Version = Instance.new("TextLabel")
+local VHubImageLabel = Instance.new("ImageLabel")
+local VHubIcon = Instance.new("ImageLabel")
+local AnnouncementText = Instance.new("TextLabel")
+local Continue = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DiscordLink = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Credits = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Name = "MainPage"
+ScreenGui.Parent = VHubCoreScreen
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MainFrame.Position = UDim2.new(0.267183132, 0, 0.066739285, 0)
+MainFrame.Size = UDim2.new(0, 300, 0, 239)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+UICorner.Parent = MainFrame
+
+DesignFrame.Name = "DesignFrame"
+DesignFrame.Parent = MainFrame
+DesignFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DesignFrame.Size = UDim2.new(0, 300, 0, 30)
+
+UICorner_2.Parent = DesignFrame
+
+X.Name = "X"
+X.Parent = DesignFrame
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.Position = UDim2.new(0.910303473, 0, 0.100000001, 0)
+X.Size = UDim2.new(0, 26, 0, 23)
+X.Font = Enum.Font.Gotham
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Error";
+	Text = "Something Went Wrong.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+end)
+
+Version.Name = "Version"
+Version.Parent = DesignFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.0978552794, 0, 0.100000009, 0)
+Version.Size = UDim2.new(0, 35, 0, 25)
+Version.Font = Enum.Font.Gotham
+Version.Text = "VHub"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+VHubImageLabel.Name = "VHubImageLabel"
+VHubImageLabel.Parent = DesignFrame
+VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImageLabel.BackgroundTransparency = 1.000
+VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
+VHubImageLabel.Image = "rbxassetid://8036184551"
+
+VHubIcon.Name = "VHubIcon"
+VHubIcon.Parent = MainFrame
+VHubIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubIcon.BackgroundTransparency = 1.000
+VHubIcon.Position = UDim2.new(0.0206718352, 0, 0.138075307, 0)
+VHubIcon.Size = UDim2.new(0, 50, 0, 50)
+VHubIcon.Image = "rbxassetid://8036184551"
+
+AnnouncementText.Name = "Announcement Text"
+AnnouncementText.Parent = MainFrame
+AnnouncementText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnnouncementText.BackgroundTransparency = 1.000
+AnnouncementText.Position = UDim2.new(0.113333337, 0, 0.347280324, 0)
+AnnouncementText.Size = UDim2.new(0, 238, 0, 110)
+AnnouncementText.Font = Enum.Font.Gotham
+AnnouncementText.Text = "VHub Logger Has Been Removed So Kittenmilk Can Execute VHub. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
+AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnnouncementText.TextSize = 14.000
+AnnouncementText.TextWrapped = true
+
+Continue.Name = "Continue"
+Continue.Parent = MainFrame
+Continue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Continue.Position = UDim2.new(0.65065819, 0, 0.865944684, 0)
+Continue.Size = UDim2.new(0, 94, 0, 21)
+Continue.Font = Enum.Font.Gotham
+Continue.Text = "Continue"
+Continue.TextColor3 = Color3.fromRGB(0, 0, 0)
+Continue.TextScaled = true
+Continue.TextSize = 14.000
+Continue.TextWrapped = true
+Continue.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+loadstring(game:HttpGet(('https://pastebin.com/raw/HZDJt5pE'),true))()
+wait(4)
+
+DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gqs1E5bH'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YCRGHQ2H'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/DWpwvSKh'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Z5bcs1Am'),true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/AARxYP18'),true))()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Successfully Loaded!";
+	Text = "Made By: itsyaboivincentt#5315 On Discord! :o";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Disclaimer!";
+	Text = "The Scripts Aren't Made By Me, Credits To Them. And Credits To 🩸Poek#5088 For The Icon.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Version:";
+	Text = "Current Version For Today Is Version 1.05!";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Update Log";
+	Text = "To View Update Log, Type /console";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Discord";
+	Text = "Join For More Information: discord.gg/3NN5zTW7h2.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(20)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Note!";
+	Text = "Some Of The Scripts Are Buggy.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+end)
+
+UICorner_3.Parent = Continue
+
+DiscordLink.Name = "Discord Link"
+DiscordLink.Parent = MainFrame
+DiscordLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DiscordLink.Position = UDim2.new(0.298590988, 0, 0.865944684, 0)
+DiscordLink.Size = UDim2.new(0, 94, 0, 21)
+DiscordLink.Font = Enum.Font.Gotham
+DiscordLink.Text = "Copy Discord Link"
+DiscordLink.TextColor3 = Color3.fromRGB(0, 0, 0)
+DiscordLink.TextScaled = true
+DiscordLink.TextSize = 14.000
+DiscordLink.TextWrapped = true
+DiscordLink.MouseButton1Down:connect(function()
+DiscordLink.Text = "Copied To Clipboard!"
+setclipboard("discord.gg/3NN5zTW7h2")
+end)
+
+UICorner_4.Parent = DiscordLink
+
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.186477095, 0, 0.138075277, 0)
+Credits.Size = UDim2.new(0.266666681, 0, 0.209000021, 0)
+Credits.Font = Enum.Font.Gotham
+Credits.Text = "Credits:"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
