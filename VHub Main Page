@@ -152,16 +152,15 @@ Continue.TextSize = 14.000
 Continue.TextWrapped = true
 Continue.MouseButton1Down:connect(function()
 MainFrame:Destroy()
-loadstring(game:HttpGet(('https://pastebin.com/raw/HZDJt5pE'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Intro'),true))()
 wait(4)
 
 DragFrame.Visible = true
-loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/gqs1E5bH'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/YCRGHQ2H'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/DWpwvSKh'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Z5bcs1Am'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/AARxYP18'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Update%20Log'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20FPS%20GUI'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20API%20Executor'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Settings'),true))()
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Successfully Loaded!";
