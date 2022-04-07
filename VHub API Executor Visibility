@@ -1,0 +1,2 @@
+game.CoreGui.VHubCoreScreen.VHubScreenExe.MainFrame.Visible = true
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
