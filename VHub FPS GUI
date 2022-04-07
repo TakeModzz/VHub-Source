@@ -1,0 +1,36 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Version = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local EXPLOIT1 = Instance.new("TextButton")
+local UICorner_1 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui.VHubCoreScreen
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Version.Name = "Version"
+Version.Parent = ScreenGui
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.0178552794, 0, 0.900000099, 0)
+Version.Size = UDim2.new(0, 70, 0, 25)
+Version.Font = Enum.Font.Cartoon
+Version.Text = "Game FPS: Loading..."
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+coroutine.wrap(function()
+	while wait() do
+	local fps = game.Workspace:GetRealPhysicsFPS()
+	Version.Text = "Game FPS: "..math.floor(fps)
+	end
+end)()
