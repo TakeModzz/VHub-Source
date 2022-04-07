@@ -1,0 +1,312 @@
+loadstring(game:HttpGet(('https://pastebin.com/raw/eyTq84Sd'),true))()
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local VHubScreenExe = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DesignFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+local VHubImageLabel = Instance.new("ImageLabel")
+local Version = Instance.new("TextLabel")
+local SectionsFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local RequiredItems = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local GUIS = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Animations = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Commands = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local OtherHubs = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local APIExecutor = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextBoxExecutor = Instance.new("TextBox")
+local UICorner_12 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Execute = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+
+--Properties:
+
+VHubScreenExe.Name = "VHubScreenExe"
+VHubScreenExe.Parent = game.CoreGui.VHubCoreScreen
+VHubScreenExe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+VHubScreenExe.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = VHubScreenExe
+MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+MainFrame.Size = UDim2.new(0, 387, 0, 239)
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.Visible = false
+
+UICorner.Parent = MainFrame
+
+DesignFrame.Name = "DesignFrame"
+DesignFrame.Parent = MainFrame
+DesignFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DesignFrame.Size = UDim2.new(0, 387, 0, 30)
+
+UICorner_2.Parent = DesignFrame
+
+X.Name = "X"
+X.Parent = DesignFrame
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
+X.Size = UDim2.new(0, 26, 0, 23)
+X.Font = Enum.Font.Gotham
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+MainFrame.Visible = false
+loadstring(game:HttpGet(('https://pastebin.com/raw/sFVu6vQA'),true))()
+end)
+
+VHubImageLabel.Name = "VHubImageLabel"
+VHubImageLabel.Parent = DesignFrame
+VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImageLabel.BackgroundTransparency = 1.000
+VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
+VHubImageLabel.Image = "rbxassetid://8036184551"
+
+Version.Name = "Version"
+Version.Parent = DesignFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1
+Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
+Version.Size = UDim2.new(0, 300, 0, 25)
+Version.Font = Enum.Font.Gotham
+Version.Text = "VHub | API Executor"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+Version.TextWrapped = true
+Version.TextXAlignment = Enum.TextXAlignment.Left
+
+SectionsFrame.Name = "SectionsFrame"
+SectionsFrame.Parent = MainFrame
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SectionsFrame.Position = UDim2.new(0, 0, 0.125523016, 0)
+SectionsFrame.Size = UDim2.new(0, 92, 0, 209)
+
+UICorner_3.Parent = SectionsFrame
+
+Home.Name = "Home"
+Home.Parent = SectionsFrame
+Home.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Home.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
+Home.Size = UDim2.new(0, 79, 0, 18)
+Home.Font = Enum.Font.Gotham
+Home.Text = "Home"
+Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.TextScaled = true
+Home.TextSize = 14.000
+Home.TextWrapped = true
+Home.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_4.Parent = Home
+
+Scripts.Name = "Scripts"
+Scripts.Parent = SectionsFrame
+Scripts.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Scripts.Position = UDim2.new(0.0648695678, 0, 0.125215307, 0)
+Scripts.Size = UDim2.new(0, 79, 0, 18)
+Scripts.Font = Enum.Font.Gotham
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+Scripts.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/z49BZPbQ'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_5.Parent = Scripts
+
+RequiredItems.Name = "Required Items"
+RequiredItems.Parent = SectionsFrame
+RequiredItems.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+RequiredItems.Position = UDim2.new(0.0649999976, 0, 0.230000004, 0)
+RequiredItems.Size = UDim2.new(0, 79, 0, 18)
+RequiredItems.Font = Enum.Font.Gotham
+RequiredItems.Text = "Required Items"
+RequiredItems.TextColor3 = Color3.fromRGB(255, 255, 255)
+RequiredItems.TextScaled = true
+RequiredItems.TextSize = 14.000
+RequiredItems.TextWrapped = true
+RequiredItems.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/py1yBR6n'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_6.Parent = RequiredItems
+
+GUIS.Name = "GUIS"
+GUIS.Parent = SectionsFrame
+GUIS.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+GUIS.Position = UDim2.new(0.0649999976, 0, 0.340000004, 0)
+GUIS.Size = UDim2.new(0, 79, 0, 18)
+GUIS.Font = Enum.Font.Gotham
+GUIS.Text = "GUIS"
+GUIS.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUIS.TextScaled = true
+GUIS.TextSize = 14.000
+GUIS.TextWrapped = true
+GUIS.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/fJwJk2Cg'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_7.Parent = GUIS
+
+Animations.Name = "Animations"
+Animations.Parent = SectionsFrame
+Animations.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Animations.Position = UDim2.new(0.0649999976, 0, 0.449999988, 0)
+Animations.Size = UDim2.new(0, 79, 0, 18)
+Animations.Font = Enum.Font.Gotham
+Animations.Text = "Animations"
+Animations.TextColor3 = Color3.fromRGB(255, 255, 255)
+Animations.TextScaled = true
+Animations.TextSize = 14.000
+Animations.TextWrapped = true
+Animations.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/CjisjrL2'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_8.Parent = Animations
+
+Commands.Name = "Commands"
+Commands.Parent = SectionsFrame
+Commands.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Commands.Position = UDim2.new(0.0649999976, 0, 0.560000002, 0)
+Commands.Size = UDim2.new(0, 79, 0, 18)
+Commands.Font = Enum.Font.Gotham
+Commands.Text = "Commands"
+Commands.TextColor3 = Color3.fromRGB(255, 255, 255)
+Commands.TextScaled = true
+Commands.TextSize = 14.000
+Commands.TextWrapped = true
+Commands.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/PG4XTHj5'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_9.Parent = Commands
+
+OtherHubs.Name = "Other Hubs"
+OtherHubs.Parent = SectionsFrame
+OtherHubs.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+OtherHubs.Position = UDim2.new(0.0649999976, 0, 0.670000017, 0)
+OtherHubs.Size = UDim2.new(0, 79, 0, 18)
+OtherHubs.Font = Enum.Font.Gotham
+OtherHubs.Text = "Other Hubs"
+OtherHubs.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherHubs.TextScaled = true
+OtherHubs.TextSize = 14.000
+OtherHubs.TextWrapped = true
+OtherHubs.MouseButton1Down:connect(function()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://pastebin.com/raw/J6X4ad5p'),true))()
+MainFrame.Visible = false
+end)
+
+UICorner_10.Parent = OtherHubs
+
+APIExecutor.Name = "API Executor"
+APIExecutor.Parent = SectionsFrame
+APIExecutor.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+APIExecutor.Position = UDim2.new(0.0649999976, 0, 0.779999971, 0)
+APIExecutor.Size = UDim2.new(0, 79, 0, 18)
+APIExecutor.Font = Enum.Font.Gotham
+APIExecutor.Text = "API Executor"
+APIExecutor.TextColor3 = Color3.fromRGB(255, 255, 255)
+APIExecutor.TextScaled = true
+APIExecutor.TextSize = 14.000
+APIExecutor.TextWrapped = true
+APIExecutor.MouseButton1Down:connect(function()
+end)
+
+UICorner_11.Parent = APIExecutor
+
+TextBoxExecutor.Name = "Text Box Executor"
+TextBoxExecutor.Parent = MainFrame
+TextBoxExecutor.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextBoxExecutor.ClipsDescendants = true
+TextBoxExecutor.Position = UDim2.new(0.263565898, 0, 0.143012524, 0)
+TextBoxExecutor.Size = UDim2.new(0, 275, 0, 158)
+TextBoxExecutor.ClearTextOnFocus = false
+TextBoxExecutor.Font = Enum.Font.SourceSans
+TextBoxExecutor.LineHeight = 0.900
+TextBoxExecutor.MultiLine = true
+TextBoxExecutor.PlaceholderText = "Paste Your Script Here!"
+TextBoxExecutor.Text = ""
+TextBoxExecutor.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBoxExecutor.TextSize = 14.000
+TextBoxExecutor.TextWrapped = true
+TextBoxExecutor.TextXAlignment = Enum.TextXAlignment.Left
+TextBoxExecutor.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_12.Parent = TextBoxExecutor
+
+Clear.Name = "Clear"
+Clear.Parent = MainFrame
+Clear.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Clear.Position = UDim2.new(0.263565898, 0, 0.849372387, 0)
+Clear.Size = UDim2.new(0, 112, 0, 27)
+Clear.Font = Enum.Font.Gotham
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+Clear.MouseButton1Down:connect(function()
+TextBoxExecutor.Text = ""
+end)
+
+UICorner_13.Parent = Clear
+
+Execute.Name = "Execute"
+Execute.Parent = MainFrame
+Execute.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Execute.Position = UDim2.new(0.684754491, 0, 0.849372387, 0)
+Execute.Size = UDim2.new(0, 112, 0, 27)
+Execute.Font = Enum.Font.Gotham
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 14.000
+Execute.TextWrapped = true
+Execute.MouseButton1Down:connect(function()
+loadstring(TextBoxExecutor.Text)()
+end)
+
+UICorner_14.Parent = Execute
