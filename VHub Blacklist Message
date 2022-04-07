@@ -1,0 +1,172 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DesignFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+local VHubImageLabel = Instance.new("ImageLabel")
+local Version = Instance.new("TextButton")
+local VHubIcon = Instance.new("ImageLabel")
+local AccountBlacklistedText = Instance.new("TextLabel")
+local Error = Instance.new("TextLabel")
+local Message1 = Instance.new("TextLabel")
+local Message2 = Instance.new("TextLabel")
+local Message3 = Instance.new("TextLabel")
+local UnableToLoadText = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+MainFrame.Size = UDim2.new(0, 387, 0, 239)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+UICorner.Parent = MainFrame
+
+DesignFrame.Name = "DesignFrame"
+DesignFrame.Parent = MainFrame
+DesignFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DesignFrame.Size = UDim2.new(0, 387, 0, 30)
+
+UICorner_2.Parent = DesignFrame
+
+X.Name = "X"
+X.Parent = DesignFrame
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
+X.Size = UDim2.new(0, 26, 0, 23)
+X.Font = Enum.Font.Gotham
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextWrapped = true
+X.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+end)
+
+VHubImageLabel.Name = "VHubImageLabel"
+VHubImageLabel.Parent = DesignFrame
+VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImageLabel.BackgroundTransparency = 1.000
+VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
+VHubImageLabel.Image = "rbxassetid://8036184551"
+
+Version.Name = "Version"
+Version.Parent = DesignFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
+Version.Size = UDim2.new(0, 35, 0, 25)
+Version.Font = Enum.Font.Gotham
+Version.Text = "VHub"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+VHubIcon.Name = "VHubIcon"
+VHubIcon.Parent = MainFrame
+VHubIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubIcon.BackgroundTransparency = 1.000
+VHubIcon.Position = UDim2.new(0.434108526, 0, 0.138075307, 0)
+VHubIcon.Size = UDim2.new(0, 50, 0, 50)
+VHubIcon.Image = "rbxassetid://8036184551"
+
+AccountBlacklistedText.Name = "Account Blacklisted Text"
+AccountBlacklistedText.Parent = MainFrame
+AccountBlacklistedText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AccountBlacklistedText.BackgroundTransparency = 1.000
+AccountBlacklistedText.Position = UDim2.new(0.240310073, 0, 0.347280324, 0)
+AccountBlacklistedText.Size = UDim2.new(0, 200, 0, 26)
+AccountBlacklistedText.Font = Enum.Font.Gotham
+AccountBlacklistedText.Text = "Account Blacklisted"
+AccountBlacklistedText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AccountBlacklistedText.TextScaled = true
+AccountBlacklistedText.TextSize = 14.000
+AccountBlacklistedText.TextWrapped = true
+
+Error.Name = "Error"
+Error.Parent = MainFrame
+Error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Error.BackgroundTransparency = 1.000
+Error.Position = UDim2.new(0.0155038759, 0, 0.924686193, 0)
+Error.Size = UDim2.new(0, 68, 0, 18)
+Error.Font = Enum.Font.Gotham
+Error.Text = "Error:453"
+Error.TextColor3 = Color3.fromRGB(255, 255, 255)
+Error.TextSize = 14.000
+Error.TextWrapped = true
+
+Message1.Name = "Message1"
+Message1.Parent = MainFrame
+Message1.Active = true
+Message1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message1.BackgroundTransparency = 1.000
+Message1.Position = UDim2.new(0.191214472, 0, 0.456066906, 0)
+Message1.Size = UDim2.new(0, 238, 0, 44)
+Message1.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Message1.Font = Enum.Font.Gotham
+Message1.Text = "Your Account Has Been Blacklisted"
+Message1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message1.TextSize = 14.000
+Message1.TextWrapped = true
+
+Message2.Name = "Message2"
+Message2.Parent = MainFrame
+Message2.Active = true
+Message2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message2.BackgroundTransparency = 1.000
+Message2.Position = UDim2.new(0.191214472, 0, 0.510460198, 0)
+Message2.Size = UDim2.new(0, 238, 0, 44)
+Message2.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Message2.Font = Enum.Font.Gotham
+Message2.Text = "For Breaking VHub Rules."
+Message2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message2.TextSize = 14.000
+Message2.TextWrapped = true
+
+Message3.Name = "Message3"
+Message3.Parent = MainFrame
+Message3.Active = true
+Message3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message3.BackgroundTransparency = 1.000
+Message3.Position = UDim2.new(0.16020672, 0, 0.564853489, 0)
+Message3.Size = UDim2.new(0, 261, 0, 44)
+Message3.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Message3.Font = Enum.Font.Gotham
+Message3.Text = "You Can No Longer Appeal."
+Message3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message3.TextSize = 14.000
+Message3.TextWrapped = true
+
+UnableToLoadText.Name = "Unable To Load Text"
+UnableToLoadText.Parent = MainFrame
+UnableToLoadText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnableToLoadText.BackgroundTransparency = 1.000
+UnableToLoadText.BorderColor3 = Color3.fromRGB(255, 0, 0)
+UnableToLoadText.Position = UDim2.new(0.730658174, 0, 0.865944684, 0)
+UnableToLoadText.Size = UDim2.new(0, 94, 0, 21)
+UnableToLoadText.Font = Enum.Font.Gotham
+UnableToLoadText.Text = "Unable To Load"
+UnableToLoadText.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnableToLoadText.TextScaled = true
+UnableToLoadText.TextSize = 14.000
+UnableToLoadText.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+UnableToLoadText.TextWrapped = true
+
+UICorner_3.Parent = UnableToLoadText
