@@ -166,12 +166,16 @@ EXPLOIT3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT3.Position = UDim2.new(0.683453262, 0, 0.0526315793, 0)
 EXPLOIT3.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT3.Font = Enum.Font.Gotham
-EXPLOIT3.Text = "Soon"
+EXPLOIT3.Text = "Giant Gun (R6)"
 EXPLOIT3.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT3.TextScaled = true
 EXPLOIT3.TextSize = 14.000
 EXPLOIT3.TextWrapped = true
 EXPLOIT3.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Giant%20Gun%20Page'),true))()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
 
 UICorner_13.Parent = EXPLOIT3
