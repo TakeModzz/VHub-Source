@@ -178,7 +178,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version For Today Is Version 1.05!";
+	Text = "Current Version For Today Is Version 1.06!";
 	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
 Duration = 16;
 wait(3)
