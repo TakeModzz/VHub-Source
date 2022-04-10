@@ -11,29 +11,7 @@ repeat wait() until game:IsLoaded()
 
 pcall(function() getgenv().VHub_LOADED = true end)
 
-local VHubCoreScreen = Instance.new("Folder")
-local DragScreen = Instance.new("ScreenGui")
-local DragFrame = Instance.new("Frame")
-local UICrner = Instance.new("UICorner")
-
-VHubCoreScreen.Name = "VHubCoreScreen" 
-VHubCoreScreen.Parent = game.CoreGui
-
-DragScreen.Name = "DragScreen"
-DragScreen.Parent = VHubCoreScreen
-DragScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-DragScreen.ResetOnSpawn = false
-
-DragFrame.Name = "DragFrame"
-DragFrame.Parent = DragScreen
-DragFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-DragFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
-DragFrame.Size = UDim2.new(0, 387, 0, 239)
-DragFrame.Active = true
-DragFrame.Draggable = true
-DragFrame.Visible = false
-
-UICrner.Parent = DragFrame
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
 
 -- Version: 3.2
 
@@ -58,7 +36,7 @@ local Credits = Instance.new("TextLabel")
 --Properties:
 
 ScreenGui.Name = "MainPage"
-ScreenGui.Parent = VHubCoreScreen
+ScreenGui.Parent = game.CoreGui.VHubCoreScreen
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
@@ -155,7 +133,7 @@ MainFrame:Destroy()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Intro'),true))()
 wait(4)
 
-DragFrame.Visible = true
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Update%20Log'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20FPS%20GUI'),true))()
