@@ -1,0 +1,144 @@
+local VHubCoreScreen = Instance.new("Folder")
+local DragScreen = Instance.new("ScreenGui")
+local DragFrame = Instance.new("Frame")
+local UICrner = Instance.new("UICorner")
+
+VHubCoreScreen.Name = "VHubCoreScreen" 
+VHubCoreScreen.Parent = game:GetService("CoreGui")
+
+DragScreen.Name = "DragScreen"
+DragScreen.Parent = VHubCoreScreen
+DragScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DragScreen.ResetOnSpawn = false
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DesignFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local VHubImageLabel = Instance.new("ImageLabel")
+local Version = Instance.new("TextLabel")
+local VHubIcon = Instance.new("ImageLabel")
+local Reload = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UhOhText = Instance.new("TextLabel")
+local Error = Instance.new("TextLabel")
+local Message1 = Instance.new("TextLabel")
+local Message2 = Instance.new("TextLabel")
+local DiscordLink = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Message3 = Instance.new("TextLabel")
+
+--Properties:
+
+DragFrame.Name = "DragFrame"
+DragFrame.Parent = DragScreen
+DragFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DragFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+DragFrame.Size = UDim2.new(0, 387, 0, 239)
+DragFrame.Active = true
+DragFrame.Draggable = true
+DragFrame.Visible = false
+
+UICorner.Parent = DragFrame
+
+DesignFrame.Name = "DesignFrame"
+DesignFrame.Parent = DragFrame
+DesignFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DesignFrame.Size = UDim2.new(0, 387, 0, 30)
+
+UICorner_2.Parent = DesignFrame
+
+VHubImageLabel.Name = "VHubImageLabel"
+VHubImageLabel.Parent = DesignFrame
+VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImageLabel.BackgroundTransparency = 1.000
+VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
+VHubImageLabel.Image = "rbxassetid://8036184551"
+
+Version.Name = "Version"
+Version.Parent = DesignFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1
+Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
+Version.Size = UDim2.new(0, 300, 0, 25)
+Version.Font = Enum.Font.Gotham
+Version.Text = "VHub | Page Error"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+Version.TextWrapped = true
+Version.TextXAlignment = Enum.TextXAlignment.Left
+
+VHubIcon.Name = "VHubIcon"
+VHubIcon.Parent = DragFrame
+VHubIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubIcon.BackgroundTransparency = 1.000
+VHubIcon.Position = UDim2.new(0.434108526, 0, 0.138075307, 0)
+VHubIcon.Size = UDim2.new(0, 50, 0, 50)
+VHubIcon.Image = "rbxassetid://8036184551"
+
+VHubImageLabel.Name = "VHubImageLabel"
+VHubImageLabel.Parent = DesignFrame
+VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImageLabel.BackgroundTransparency = 1.000
+VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
+VHubImageLabel.Image = "rbxassetid://8036184551"
+
+UhOhText.Name = "Uh Oh Text"
+UhOhText.Parent = DragFrame
+UhOhText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UhOhText.BackgroundTransparency = 1.000
+UhOhText.Position = UDim2.new(0.240310073, 0, 0.347280324, 0)
+UhOhText.Size = UDim2.new(0, 200, 0, 26)
+UhOhText.Font = Enum.Font.Gotham
+UhOhText.Text = "Error While Getting Page Source"
+UhOhText.TextColor3 = Color3.fromRGB(255, 255, 255)
+UhOhText.TextScaled = true
+UhOhText.TextSize = 18.000
+UhOhText.TextWrapped = false
+
+Error.Name = "Error"
+Error.Parent = DragFrame
+Error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Error.BackgroundTransparency = 1.000
+Error.Position = UDim2.new(0.0155038759, 0, 0.924686193, 0)
+Error.Size = UDim2.new(0, 68, 0, 18)
+Error.Font = Enum.Font.Gotham
+Error.Text = "Error:404"
+Error.TextColor3 = Color3.fromRGB(255, 255, 255)
+Error.TextSize = 14.000
+Error.TextWrapped = true
+
+Message1.Name = "Message1"
+Message1.Parent = DragFrame
+Message1.Active = true
+Message1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message1.BackgroundTransparency = 1.000
+Message1.Position = UDim2.new(0.191214472, 0, 0.456066906, 0)
+Message1.Size = UDim2.new(0, 238, 0, 44)
+Message1.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Message1.Font = Enum.Font.Gotham
+Message1.Text = "Description:"
+Message1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message1.TextSize = 14.000
+Message1.TextWrapped = true
+Message1.TextXAlignment = Enum.TextXAlignment.Left
+
+Message2.Name = "Message2"
+Message2.Parent = DragFrame
+Message2.Active = true
+Message2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Message2.BackgroundTransparency = 1.000
+Message2.Position = UDim2.new(0.191, 0, 0.490, 0)
+Message2.Size = UDim2.new(0, 238, 0, 100)
+Message2.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Message2.Font = Enum.Font.Gotham
+Message2.Text = "Can't Find CoreGui Because The Developer Renamed CoreGui To Something Else Or The Code Isnt Fully Done Or Finished"
+Message2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Message2.TextSize = 14.000
+Message2.TextWrapped = true
+Message2.TextXAlignment = Enum.TextXAlignment.Left
