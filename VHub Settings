@@ -97,15 +97,9 @@ EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
 MainFrame.Visible = false
 game.CoreGui.VHubCoreScreen:Destroy()
-wait(0.1)
-local VHubCoreScreen = Instance.new("Folder")
-
-VHubCoreScreen.Name = "VHubCoreScreen" 
-VHubCoreScreen.Parent = game.CoreGui
-
-loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/YCRGHQ2H'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Z5bcs1Am'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 end)
 
 UICorner_11.Parent = EXPLOIT1
@@ -147,7 +141,7 @@ EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
 MainFrame.Visible = false
 game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
-loadstring(game:HttpGet(('https://pastebin.com/raw/L7rCzJuW'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 end)
 
 UICorner_17.Parent = EXPLOIT7
