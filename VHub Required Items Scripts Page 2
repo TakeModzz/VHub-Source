@@ -187,12 +187,17 @@ EXPLOIT4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT4.Position = UDim2.new(0.0323741436, 0, 0.345625222, 0)
 EXPLOIT4.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT4.Font = Enum.Font.Gotham
-EXPLOIT4.Text = "Soon"
+EXPLOIT4.Text = "Plane (R6)"
 EXPLOIT4.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT4.TextScaled = true
 EXPLOIT4.TextSize = 14.000
 EXPLOIT4.TextWrapped = true
 EXPLOIT4.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Plane%20Page'),true))()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
 
 UICorner_14.Parent = EXPLOIT4
