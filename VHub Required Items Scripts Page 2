@@ -208,12 +208,17 @@ EXPLOIT5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT5.Position = UDim2.new(0.352518022, 0, 0.345625222, 0)
 EXPLOIT5.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT5.Font = Enum.Font.Gotham
-EXPLOIT5.Text = "Soon" 
+EXPLOIT5.Text = "Waiter (R6)" 
 EXPLOIT5.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT5.TextScaled = true
 EXPLOIT5.TextSize = 14.000
 EXPLOIT5.TextWrapped = true
 EXPLOIT5.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Required-Items-Pages/main/Waiter%20Page'),true))()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 end)
 
 UICorner_15.Parent = EXPLOIT5
