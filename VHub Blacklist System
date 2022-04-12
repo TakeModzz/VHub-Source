@@ -1,6 +1,6 @@
 local Plr = game.Players.LocalPlayer
 
-if Plr.Name == "dokdeij" or Plr.Name == "asdasdasadsasasad" or Plr.Name == "hdheheueuehvr" then
+if Plr.Name == "asdasdasadsasasad" or Plr.Name == "hdheheueuehvr" then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Blacklist%20Message'),true))()
 game.CoreGui.VHubCoreScreen:Destroy()
 end
