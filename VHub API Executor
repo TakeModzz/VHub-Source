@@ -41,7 +41,7 @@ local UICorner_14 = Instance.new("UICorner")
 --Properties:
 
 VHubScreenExe.Name = "VHubScreenExe"
-VHubScreenExe.Parent = game.CoreGui.VHubCoreScreen
+VHubScreenExe.Parent = game:GetService("CoreGui").VHubCoreScreen
 VHubScreenExe.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 VHubScreenExe.ResetOnSpawn = false
 
@@ -69,7 +69,7 @@ X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 X.BackgroundTransparency = 1.000
 X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
 X.Size = UDim2.new(0, 26, 0, 23)
-X.Font = Enum.Font.Gotham
+X.Font = Enum.Font.FredokaOne
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(255, 255, 255)
 X.TextScaled = true
@@ -93,7 +93,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
+Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | API Executor"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
@@ -310,3 +310,20 @@ loadstring(TextBoxExecutor.Text)()
 end)
 
 UICorner_14.Parent = Execute
+
+if game.Workspace.DarkerTheme.Active == true then
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Home.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Scripts.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+RequiredItems.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+GUIS.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Animations.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Commands.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OtherHubs.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+APIExecutor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextBoxExecutor.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Clear.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Execute.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+end
