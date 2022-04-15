@@ -59,7 +59,7 @@ local UICorner_30 = Instance.new("UICorner")
 --Properties:
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = game.CoreGui.VHubCoreScreen.DragScreen.DragFrame
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 MainFrame.Position = UDim2.new(0, 0, 0, 0)
 MainFrame.Size = UDim2.new(0, 387, 0, 239)
@@ -79,7 +79,7 @@ X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 X.BackgroundTransparency = 1.000
 X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
 X.Size = UDim2.new(0, 26, 0, 23)
-X.Font = Enum.Font.Gotham
+X.Font = Enum.Font.FredokaOne
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(255, 255, 255)
 X.TextScaled = true
@@ -103,7 +103,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
+Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | GUIS"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
@@ -358,7 +358,7 @@ PageDescription.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PageDescription.BackgroundTransparency = 1.000
 PageDescription.Position = UDim2.new(0.423772603, 0, 0.138075322, 0)
 PageDescription.Size = UDim2.new(0, 150, 0, 36)
-PageDescription.Font = Enum.Font.Gotham
+PageDescription.Font = Enum.Font.GothamSemibold
 PageDescription.Text = "GUIS Scripts Page 2"
 PageDescription.TextColor3 = Color3.fromRGB(255, 255, 255)
 PageDescription.TextScaled = true
@@ -514,3 +514,29 @@ MainFrame:Destroy()
 end)
 
 UICorner_30.Parent = APIExecutor
+
+if game.Workspace.DarkerTheme.Active == true then
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptsNames.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+EXPLOIT1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT5.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT8.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT9.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+PreviousPage.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+NextPage.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Home.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Scripts.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+RequiredItems.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+GUIS.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Animations.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Commands.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OtherHubs.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+APIExecutor.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+end
