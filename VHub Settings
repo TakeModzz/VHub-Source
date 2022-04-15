@@ -95,8 +95,8 @@ EXPLOIT1.TextScaled = false
 EXPLOIT1.TextSize = 14.000
 EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
-MainFrame:Destroy()
-game:GetService("CoreGui").VHubCoreScreenen:Destroy()
+MainFrame.Visible = false
+game:GetService("CoreGui").VHubCoreScreen:Destroy()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
@@ -139,7 +139,7 @@ EXPLOIT7.TextScaled = false
 EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
-MainFrame:Destroy()
+MainFrame.Visible = false
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 end)
