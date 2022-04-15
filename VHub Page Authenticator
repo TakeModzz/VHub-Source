@@ -137,8 +137,20 @@ Message2.Position = UDim2.new(0.191, 0, 0.490, 0)
 Message2.Size = UDim2.new(0, 238, 0, 100)
 Message2.SizeConstraint = Enum.SizeConstraint.RelativeYY
 Message2.Font = Enum.Font.Gotham
-Message2.Text = "Can't Find CoreGui Because The Developer Renamed CoreGui To Something Else Or The Code Isnt Fully Done Or Finished"
+Message2.Text = "Page Isnt Fully Done Or Finished"
 Message2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Message2.TextSize = 14.000
 Message2.TextWrapped = true
 Message2.TextXAlignment = Enum.TextXAlignment.Left
+
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
+
+local MainFrame = Instance.new("Frame")
+
+MainFrame.Name = "DarkerTheme"
+MainFrame.Parent = Workspace
+MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+MainFrame.Size = UDim2.new(0, 387, 0, 239)
+MainFrame.Active = false
+MainFrame.Visible = false
