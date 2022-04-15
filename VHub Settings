@@ -34,7 +34,7 @@ local UICorner_19 = Instance.new("UICorner")
 --Properties:
 
 ScreenGui.Name = "VHubSettings"
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game:GetService("CoreGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
@@ -61,7 +61,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.100, 0, 0.10, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
+Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Settings"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
@@ -95,10 +95,10 @@ EXPLOIT1.TextScaled = false
 EXPLOIT1.TextSize = 14.000
 EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
-MainFrame.Visible = false
-game.CoreGui.VHubCoreScreen:Destroy()
+MainFrame:Destroy()
+game:GetService("CoreGui").VHubCoreScreenen:Destroy()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 end)
 
@@ -110,19 +110,13 @@ EXPLOIT4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT4.Position = UDim2.new(0.0323741436, 0, 0.345625222, 0)
 EXPLOIT4.Size = UDim2.new(0, 260, 0, 32)
 EXPLOIT4.Font = Enum.Font.Gotham
-EXPLOIT4.Text = "Notifications: Enabled"
+EXPLOIT4.Text = "Darker Theme"
 EXPLOIT4.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT4.TextScaled = false
 EXPLOIT4.TextSize = 14.000
 EXPLOIT4.TextWrapped = true
 EXPLOIT4.MouseButton1Down:connect(function()
-if game.CoreGui.RobloxGui.NotificationFrame.Visible == true then
-game.CoreGui.RobloxGui.NotificationFrame.Visible = false
-EXPLOIT4.Text = "Notifications: Disabled"
-elseif game.CoreGui.RobloxGui.NotificationFrame.Visible == false then
-game.CoreGui.RobloxGui.NotificationFrame.Visible = true
-EXPLOIT4.Text = "Notifications: Enabled"
-end
+game.Workspace.DarkerTheme.Active = true
 end)
 
 UICorner_14.Parent = EXPLOIT4
@@ -139,9 +133,18 @@ EXPLOIT7.TextScaled = false
 EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
-MainFrame.Visible = false
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+MainFrame:Destroy()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 end)
 
 UICorner_17.Parent = EXPLOIT7
+
+if game.Workspace.DarkerTheme.Active == true then
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+EXPLOIT1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+end
