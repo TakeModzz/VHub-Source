@@ -16,7 +16,6 @@ DragScreen.ResetOnSpawn = false
 
 -- Instances:
 
-local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
@@ -145,12 +144,12 @@ Message2.TextXAlignment = Enum.TextXAlignment.Left
 
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 
-local MainFrame = Instance.new("Frame")
+local DarkerTheme = Instance.new("Frame")
 
-MainFrame.Name = "DarkerTheme"
-MainFrame.Parent = Workspace
-MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
-MainFrame.Size = UDim2.new(0, 387, 0, 239)
-MainFrame.Active = false
-MainFrame.Visible = false
+DarkerTheme.Name = "DarkerTheme"
+DarkerTheme.Parent = Workspace
+DarkerTheme.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DarkerTheme.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+DarkerTheme.Size = UDim2.new(0, 387, 0, 239)
+DarkerTheme.Active = false
+DarkerTheme.Visible = false
