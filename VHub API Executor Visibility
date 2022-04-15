@@ -1,2 +1,2 @@
-game.CoreGui.VHubCoreScreen.VHubScreenExe.MainFrame.Visible = true
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
+game:GetService("CoreGui").VHubCoreScreen.VHubScreenExe.MainFrame.Visible = true
+game:GetService("CoreGui").DragScreen.DragFrame.Visible = false
