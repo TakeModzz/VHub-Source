@@ -49,7 +49,7 @@ local UICorner_15 = Instance.new("UICorner")
 --Properties:
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = game.CoreGui.VHubCoreScreen.DragScreen.DragFrame
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
 MainFrame.Position = UDim2.new(0, 0, 0, 0)
 MainFrame.Size = UDim2.new(0, 387, 0, 239)
@@ -69,7 +69,7 @@ X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 X.BackgroundTransparency = 1.000
 X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
 X.Size = UDim2.new(0, 26, 0, 23)
-X.Font = Enum.Font.Gotham
+X.Font = Enum.Font.FredokaOne
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(255, 255, 255)
 X.TextScaled = true
@@ -93,7 +93,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
+Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Home"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
@@ -119,7 +119,7 @@ MessageText.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
 MessageText.BackgroundTransparency = 1.000
 MessageText.Position = UDim2.new(0.369509041, 0, 0.533305451, 0)
 MessageText.Size = UDim2.new(0, 200, 0, 50)
-MessageText.Font = Enum.Font.Gotham
+MessageText.Font = Enum.Font.GothamSemibold
 MessageText.Text = "Loading..."
 MessageText.TextColor3 = Color3.fromRGB(200, 200, 200)
 MessageText.TextScaled = false
@@ -744,7 +744,7 @@ DiscordInviteLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DiscordInviteLink.BackgroundTransparency = 1.000
 DiscordInviteLink.Position = UDim2.new(0.150310073, 0, 0.893765678, 0)
 DiscordInviteLink.Size = UDim2.new(0, 200, 0, 23)
-DiscordInviteLink.Font = Enum.Font.Gotham
+DiscordInviteLink.Font = Enum.Font.GothamSemibold
 DiscordInviteLink.Text = "dsc.gg/vhub"
 DiscordInviteLink.TextColor3 = Color3.fromRGB(100, 100, 100)
 DiscordInviteLink.TextScaled = true
@@ -763,8 +763,8 @@ OldGUI.TextScaled = false
 OldGUI.TextSize = 14.000
 OldGUI.TextWrapped = true
 OldGUI.MouseButton1Down:connect(function()
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
-game.CoreGui.VHubSettings.MainFrame.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
+
 MainFrame:destroy()
 end)
 
@@ -911,3 +911,19 @@ WelcomeText.TextTransparency = 0.2
 wait(0.1)
 end
 end)()
+
+if game.Workspace.DarkerTheme.Active == true then
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+WelcomeText.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Scripts.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+RequiredItems.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+GUIS.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Animations.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Commands.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OtherHubs.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+APIExecutor.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OldGUI.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+end
