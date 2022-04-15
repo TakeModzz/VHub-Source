@@ -117,6 +117,12 @@ EXPLOIT4.TextSize = 14.000
 EXPLOIT4.TextWrapped = true
 EXPLOIT4.MouseButton1Down:connect(function()
 game.Workspace.DarkerTheme.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+EXPLOIT1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+EXPLOIT7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 end)
 
 UICorner_14.Parent = EXPLOIT4
@@ -139,12 +145,3 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 end)
 
 UICorner_17.Parent = EXPLOIT7
-
-if game.Workspace.DarkerTheme.Active == true then
-MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-DesignFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Scripts.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-EXPLOIT1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-EXPLOIT4.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-EXPLOIT7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-end
