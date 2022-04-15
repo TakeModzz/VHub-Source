@@ -763,8 +763,8 @@ OldGUI.TextScaled = false
 OldGUI.TextSize = 14.000
 OldGUI.TextWrapped = true
 OldGUI.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubSettings.MainFrame.Visible = true
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
-
 MainFrame:destroy()
 end)
 
