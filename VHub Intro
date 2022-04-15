@@ -10,7 +10,7 @@ local LoadingText = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui.VHubCoreScreen
+ScreenGui.Parent = game:GetService("CoreGui").VHubCoreScreen
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 ScreenGui.IgnoreGuiInset = true
@@ -37,12 +37,12 @@ BeautifulMessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BeautifulMessage.BackgroundTransparency = 1.000
 BeautifulMessage.Position = UDim2.new(0.25, 0, 0.51, 0)
 BeautifulMessage.Size = UDim2.new(0.5, 0, 0.100000001, 0)
-BeautifulMessage.Font = Enum.Font.Gotham
+BeautifulMessage.Font = Enum.Font.FredokaOne
 BeautifulMessage.Text = "Recommended Hub For Mobile Executors"
 BeautifulMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 BeautifulMessage.TextScaled = true
-BeautifulMessage.TextSize = 14.000
-BeautifulMessage.TextWrapped = true
+BeautifulMessage.TextSize = 20.000
+BeautifulMessage.TextWrapped = false
 BeautifulMessage.TextTransparency = 1
 
 LoadingText.Name = "Loading Text"
@@ -51,7 +51,7 @@ LoadingText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LoadingText.BackgroundTransparency = 1.000
 LoadingText.Position = UDim2.new(0, 0, 0.941461086, 0)
 LoadingText.Size = UDim2.new(0.159482762, 0, 0.0582542568, 0)
-LoadingText.Font = Enum.Font.Gotham
+LoadingText.Font = Enum.Font.GothamSemibold
 LoadingText.Text = "Loading Hub..."
 LoadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
 LoadingText.TextScaled = true
