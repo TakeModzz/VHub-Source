@@ -1,5 +1,5 @@
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Blacklist%20System'),true))()
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = false
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
 
 -- Gui to Lua
 -- Version: 3.2
@@ -15,7 +15,7 @@ local UICorner_1 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui.VHubCoreScreen
+ScreenGui.Parent = game:GetService("CoreGui").VHubCoreScreen
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
@@ -49,7 +49,7 @@ EXPLOIT1.TextScaled = true
 EXPLOIT1.TextSize = 14.000
 EXPLOIT1.TextWrapped = true
 EXPLOIT1.MouseButton1Down:connect(function()
-game.CoreGui.VHubCoreScreen.DragScreen.DragFrame.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
 ScreenGui:Destroy()
 end)
