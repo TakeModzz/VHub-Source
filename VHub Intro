@@ -44,6 +44,7 @@ BeautifulMessage.TextScaled = true
 BeautifulMessage.TextSize = 20.000
 BeautifulMessage.TextWrapped = false
 BeautifulMessage.TextTransparency = 1
+BeautifulMessage.TextStrokeTransparency = 0
 
 LoadingText.Name = "Loading Text"
 LoadingText.Parent = ScreenGui
