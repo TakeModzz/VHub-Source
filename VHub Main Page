@@ -13,47 +13,84 @@ pcall(function() getgenv().VHub_LOADED = true end)
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
 
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local X = Instance.new("TextButton")
-local Version = Instance.new("TextLabel")
 local VHubImageLabel = Instance.new("ImageLabel")
+local Version = Instance.new("TextLabel")
+local ScriptsNames = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local EXPLOIT1 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local EXPLOIT2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local EXPLOIT3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local EXPLOIT4 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local EXPLOIT5 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local EXPLOIT6 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local EXPLOIT7 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local EXPLOIT8 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local EXPLOIT9 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local PreviousPage = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local NextPage = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local PageDescription = Instance.new("TextLabel")
+local SectionsFrame = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local RequiredItems = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local GUIS = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Animations = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Commands = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local OtherHubs = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local APIExecutor = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
 local VHubIcon = Instance.new("ImageLabel")
 local AnnouncementText = Instance.new("TextLabel")
+local ButtonsFrame = Instance.new("Frame")
 local Continue = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
 local DiscordLink = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
 local Credits = Instance.new("TextLabel")
+local VersionNum = Instance.new("TextLabel")
+local VersionUpdates = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Name = "MainPage"
-ScreenGui.Parent = game:GetService("CoreGui").VHubCoreScreen 
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.ResetOnSpawn = false
-
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = ScreenGui
+MainFrame.Name = "MainPage"
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-MainFrame.Position = UDim2.new(0.267183132, 0, 0.066739285, 0)
-MainFrame.Size = UDim2.new(0, 300, 0, 239)
-MainFrame.Active = true
-MainFrame.Draggable = true
+MainFrame.Position = UDim2.new(0, 0, 0, 0)
+MainFrame.Size = UDim2.new(0, 387, 0, 239)
 
 UICorner.Parent = MainFrame
 
 DesignFrame.Name = "DesignFrame"
 DesignFrame.Parent = MainFrame
 DesignFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-DesignFrame.Size = UDim2.new(0, 300, 0, 30)
+DesignFrame.Size = UDim2.new(0, 387, 0, 30)
 
 UICorner_2.Parent = DesignFrame
 
@@ -61,7 +98,7 @@ X.Name = "X"
 X.Parent = DesignFrame
 X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 X.BackgroundTransparency = 1.000
-X.Position = UDim2.new(0.910303473, 0, 0.100000001, 0)
+X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
 X.Size = UDim2.new(0, 26, 0, 23)
 X.Font = Enum.Font.FredokaOne
 X.Text = "X"
@@ -70,25 +107,12 @@ X.TextScaled = true
 X.TextSize = 14.000
 X.TextWrapped = true
 X.MouseButton1Down:connect(function()
-    game:GetService("StarterGui"):SetCore("SendNotification", { 
+game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Error";
 	Text = "Something Went Wrong.";
 	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
 Duration = 16;
 end)
-
-Version.Name = "Version"
-Version.Parent = DesignFrame
-Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Version.BackgroundTransparency = 1.000
-Version.Position = UDim2.new(0.0978552794, 0, 0.100000009, 0)
-Version.Size = UDim2.new(0, 35, 0, 25)
-Version.Font = Enum.Font.GothamSemibold
-Version.Text = "VHub"
-Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextScaled = true
-Version.TextSize = 14.000
-Version.TextWrapped = true
 
 VHubImageLabel.Name = "VHubImageLabel"
 VHubImageLabel.Parent = DesignFrame
@@ -96,6 +120,19 @@ VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
 VHubImageLabel.Image = "rbxassetid://8036184551"
+
+Version.Name = "Version"
+Version.Parent = DesignFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1
+Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
+Version.Size = UDim2.new(0, 300, 0, 25)
+Version.Font = Enum.Font.GothamSemibold
+Version.Text = "VHub | Main Page"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextSize = 14.000
+Version.TextWrapped = true
+Version.TextXAlignment = Enum.TextXAlignment.Left
 
 VHubIcon.Name = "VHubIcon"
 VHubIcon.Parent = MainFrame
@@ -107,29 +144,40 @@ VHubIcon.Image = "rbxassetid://8036184551"
 
 AnnouncementText.Name = "Announcement Text"
 AnnouncementText.Parent = MainFrame
-AnnouncementText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AnnouncementText.BackgroundTransparency = 1.000
-AnnouncementText.Position = UDim2.new(0.113333337, 0, 0.347280324, 0)
-AnnouncementText.Size = UDim2.new(0, 238, 0, 110)
+AnnouncementText.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AnnouncementText.BackgroundTransparency = 0
+AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
+AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
 AnnouncementText.Text = "VHub Logger Has Been Removed So Kittenmilk Can Execute VHub. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnnouncementText.TextSize = 14.000
+AnnouncementText.TextSize = 12
 AnnouncementText.TextWrapped = true
 
+UICorner_12.Parent = AnnouncementText
+
+ButtonsFrame.Name = "ButtonsFrame"
+ButtonsFrame.Parent = MainFrame
+ButtonsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ButtonsFrame.Position = UDim2.new(0.015, 0, 0.830, 0)
+ButtonsFrame.Size = UDim2.new(0, 220, 0, 30)
+
+UICorner_15.Parent = ButtonsFrame
+
 Continue.Name = "Continue"
-Continue.Parent = MainFrame
+Continue.Parent = ButtonsFrame
 Continue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Continue.Position = UDim2.new(0.65065819, 0, 0.865944684, 0)
+Continue.Position = UDim2.new(0.53, 0, 0.160, 0)
 Continue.Size = UDim2.new(0, 94, 0, 21)
 Continue.Font = Enum.Font.Gotham
-Continue.Text = "Continue"
+Continue.Text = "Launch"
 Continue.TextColor3 = Color3.fromRGB(0, 0, 0)
 Continue.TextScaled = true
 Continue.TextSize = 14.000
 Continue.TextWrapped = true
 Continue.MouseButton1Down:connect(function()
 MainFrame:Destroy()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Intro'),true))()
 wait(4)
 
@@ -182,12 +230,12 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 Duration = 16;
 end)
 
-UICorner_3.Parent = Continue
+UICorner_10.Parent = Continue
 
 DiscordLink.Name = "Discord Link"
-DiscordLink.Parent = MainFrame
+DiscordLink.Parent = ButtonsFrame
 DiscordLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DiscordLink.Position = UDim2.new(0.298590988, 0, 0.865944684, 0)
+DiscordLink.Position = UDim2.new(0.03, 0, 0.160, 0)
 DiscordLink.Size = UDim2.new(0, 94, 0, 21)
 DiscordLink.Font = Enum.Font.Gotham
 DiscordLink.Text = "Copy Discord Link"
@@ -200,14 +248,14 @@ DiscordLink.Text = "Copied To Clipboard!"
 setclipboard("discord.gg/3NN5zTW7h2")
 end)
 
-UICorner_4.Parent = DiscordLink
+UICorner_11.Parent = DiscordLink
 
 Credits.Name = "Credits"
 Credits.Parent = MainFrame
 Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
-Credits.Position = UDim2.new(0.186477095, 0, 0.138075277, 0)
-Credits.Size = UDim2.new(0.266666681, 0, 0.209000021, 0)
+Credits.Position = UDim2.new(0.150, 0, 0.138, 0)
+Credits.Size = UDim2.new(0.200, 0, 0.20, 0)
 Credits.Font = Enum.Font.GothamSemibold
 Credits.Text = "Credits:"
 Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -215,4 +263,40 @@ Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
+SectionsFrame.Name = "UpdatesFrame"
+SectionsFrame.Parent = MainFrame
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SectionsFrame.Position = UDim2.new(0.600, 0, 0.140, 0)
+SectionsFrame.Size = UDim2.new(0, 150, 0, 200)
+
+UICorner_22.Parent = SectionsFrame
+
+VersionNum.Name = "VersionNum"
+VersionNum.Parent = SectionsFrame
+VersionNum.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+VersionNum.BackgroundTransparency = 0
+VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
+VersionNum.Size = UDim2.new(0, 130, 0, 18)
+VersionNum.Font = Enum.Font.GothamSemibold
+VersionNum.Text = "Version: 1.09"
+VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionNum.TextScaled = true
+VersionNum.TextSize = 14.000
+VersionNum.TextWrapped = true
+
+UICorner_13.Parent = VersionNum
+
+VersionUpdates.Name = "VersionUpdates"
+VersionUpdates.Parent = SectionsFrame
+VersionUpdates.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+VersionUpdates.BackgroundTransparency = 0
+VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
+VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
+VersionUpdates.Font = Enum.Font.Gotham
+VersionUpdates.Text = "-Added Take The L                            -Changed Some Text Fonts                         -Fixed CoreGui Problem"
+VersionUpdates.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionUpdates.TextScaled = false
+VersionUpdates.TextSize = 12.000
+VersionUpdates.TextWrapped = true
+VersionUpdates.TextXAlignment = Enum.TextXAlignment.Left
+VersionUpdates.TextYAlignment = Enum.TextYAlignment.Top
