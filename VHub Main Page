@@ -76,6 +76,8 @@ local DiscordLink = Instance.new("TextButton")
 local Credits = Instance.new("TextLabel")
 local VersionNum = Instance.new("TextLabel")
 local VersionUpdates = Instance.new("TextLabel")
+local OwnerTitle = Instance.new("TextLabel")
+local itsyaboivincentt5315 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -294,9 +296,35 @@ VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
 VersionUpdates.Text = "-Added Take The L                            -Changed Some Text Fonts                         -Fixed CoreGui Problem"
-VersionUpdates.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 12.000
 VersionUpdates.TextWrapped = true
 VersionUpdates.TextXAlignment = Enum.TextXAlignment.Left
 VersionUpdates.TextYAlignment = Enum.TextYAlignment.Top
+
+OwnerTitle.Name = "OwnerTitle"
+OwnerTitle.Parent = SectionsFrame
+OwnerTitle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OwnerTitle.BackgroundTransparency = 1
+OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.800, 0)
+OwnerTitle.Size = UDim2.new(0, 130, 0, 18)
+OwnerTitle.Font = Enum.Font.GothamSemibold
+OwnerTitle.Text = "Owner And Developed By:"
+OwnerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwnerTitle.TextScaled = true
+OwnerTitle.TextSize = 14.000
+OwnerTitle.TextWrapped = true
+
+itsyaboivincentt5315.Name = "itsyaboivincentt5315"
+itsyaboivincentt5315.Parent = SectionsFrame
+itsyaboivincentt5315.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+itsyaboivincentt5315.BackgroundTransparency = 1
+itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.850, 0)
+itsyaboivincentt5315.Size = UDim2.new(0, 130, 0, 18)
+itsyaboivincentt5315.Font = Enum.Font.Gotham
+itsyaboivincentt5315.Text = "itsyaboivincentt#5315"
+itsyaboivincentt5315.TextColor3 = Color3.fromRGB(200, 200, 200)
+itsyaboivincentt5315.TextScaled = false
+itsyaboivincentt5315.TextSize = 10.000
+itsyaboivincentt5315.TextWrapped = true
