@@ -7,6 +7,7 @@ local BlackTransparentScreen = Instance.new("Frame")
 local VHubLogo = Instance.new("ImageLabel")
 local BeautifulMessage = Instance.new("TextLabel")
 local LoadingText = Instance.new("TextLabel")
+local blur = Instance.new("BlurEffect")
 
 --Properties:
 
@@ -42,7 +43,7 @@ BeautifulMessage.Text = "Recommended Hub For Mobile Executors"
 BeautifulMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 BeautifulMessage.TextScaled = true
 BeautifulMessage.TextSize = 20.000
-BeautifulMessage.TextWrapped = false
+BeautifulMessage.TextWrapped = true
 BeautifulMessage.TextTransparency = 1
 BeautifulMessage.TextStrokeTransparency = 0
 
@@ -59,6 +60,10 @@ LoadingText.TextScaled = true
 LoadingText.TextSize = 14.000
 LoadingText.TextWrapped = true
 
+blur.Name = "blur"
+blur.Parent = game.Lighting
+blur.Size = 0
+
 VHubLogo:TweenPosition(UDim2.new(0.447, 0,0.278, 0),"Out","Quint",1,true)
 BeautifulMessage:TweenPosition(UDim2.new(0.25, 0,0.45, 0),"Out","Quint",1,true)
 
@@ -66,73 +71,94 @@ coroutine.wrap(function()
 while wait() do
 BeautifulMessage.TextTransparency = 1
 VHubLogo.ImageTransparency = 1
+blur.Size = 0
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.9
 VHubLogo.ImageTransparency = 0.9
+blur.Size = 10
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.8
 VHubLogo.ImageTransparency = 0.8
+blur.Size = 20
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.7
 VHubLogo.ImageTransparency = 0.7
+blur.Size = 30
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.6
 VHubLogo.ImageTransparency = 0.6
+blur.Size = 40
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.5
 VHubLogo.ImageTransparency = 0.5
+blur.Size = 50
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.4
 VHubLogo.ImageTransparency = 0.4
+blur.Size = 60
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.3
 VHubLogo.ImageTransparency = 0.3
+blur.Size = 70
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.2
 VHubLogo.ImageTransparency = 0.2
+blur.Size = 80
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.1
 VHubLogo.ImageTransparency = 0.1
+blur.Size = 90
 wait(0.1)
 BeautifulMessage.TextTransparency = 0
 VHubLogo.ImageTransparency = 0
+blur.Size = 100
 wait(1)
 BeautifulMessage.TextTransparency = 0.1
 VHubLogo.ImageTransparency = 0.1
+blur.Size = 90
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.2
 VHubLogo.ImageTransparency = 0.2
+blur.Size = 80
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.3
 VHubLogo.ImageTransparency = 0.3
+blur.Size = 70
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.4
 VHubLogo.ImageTransparency = 0.4
+blur.Size = 60
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.5
 VHubLogo.ImageTransparency = 0.5
-BlackTransparentScreen.BackgroundTransparency = 0.5
+blur.Size = 50
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.6
 VHubLogo.ImageTransparency = 0.6
 BlackTransparentScreen.BackgroundTransparency = 0.6
+blur.Size = 40
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.7
 VHubLogo.ImageTransparency = 0.7
+blur.Size = 30
 BlackTransparentScreen.BackgroundTransparency = 0.7
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.8
+blur.Size = 20
 VHubLogo.ImageTransparency = 0.8
 BlackTransparentScreen.BackgroundTransparency = 0.8
 wait(0.1)
 BeautifulMessage.TextTransparency = 0.9
 VHubLogo.ImageTransparency = 0.9
 BlackTransparentScreen.BackgroundTransparency = 0.9
+blur.Size = 10
 wait(0.1)
 BeautifulMessage.TextTransparency = 1
 VHubLogo.ImageTransparency = 1
 BlackTransparentScreen.BackgroundTransparency = 1
+blur.Size = 0
 wait(0.1)
+blur:Destroy()
 ScreenGui:Destroy()
 end
 end)()
