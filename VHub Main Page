@@ -18,7 +18,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "itsyaboivincentt Joined This Server!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
-game:GetService("Players").LocalPlayer.DisplayName = "[⭐] Vincent" 
+game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] Vincent" 
 
 local VHubSystem = Instance.new("Hint")
 
