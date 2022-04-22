@@ -95,7 +95,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -106,7 +106,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Scripts"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -134,7 +134,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/NWMaSHhe'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Chat Copier!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -156,7 +156,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/XSkZEkaV'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Mega Hats!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -180,7 +180,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/Th4jbiVn'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Eat Accessories!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -202,7 +202,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/Yi2QRzTu'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Anti Kick!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -224,7 +224,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/KuxL7e2R'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Mesh Accessories!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -249,14 +249,14 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed CloVR!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Tip!";
 	Text = "If You Can't Reset, Execute Arosia UGI And Press GodMode!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -278,7 +278,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/a0jjaAyd'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Kill Farm!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -300,7 +300,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/AjPPYScu'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Build A Boat For Treasure Farm!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -322,7 +322,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Chat Translator!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
