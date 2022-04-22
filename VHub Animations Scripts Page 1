@@ -95,7 +95,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -106,7 +106,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Animations"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -134,7 +134,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/Viz3fgqB'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Dance!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -158,7 +158,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/ZuKy7HFF'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Smug Dance!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -182,7 +182,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/KUTFiBpk'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Sans Animation!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -208,15 +208,15 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
-	Text = "Successfully Executed Neko Animation!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Text = "Successfully Executed Neko Animation!";	
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Notice!";
 	Text = "If You Can't Move, You May Need A Keyboard!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -238,7 +238,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/jChrcB0S'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Distraction Dance!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -262,7 +262,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/1P37qYeV'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Russian Kick!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -286,7 +286,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/R1RZqcA8'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Animation Changer GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -308,7 +308,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/DX88SGL8'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Chill!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
@@ -332,7 +332,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/8sbK4Dsm'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Project!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
