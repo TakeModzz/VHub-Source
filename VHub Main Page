@@ -1,9 +1,23 @@
+if VHub_LOADED and not _G.VHub_DEBUG == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Notice!";
+	Text = "VHub Is Already Loaded!";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+	return
+end
+
+repeat wait() until game:IsLoaded()
+
+pcall(function() getgenv().VHub_LOADED = true end)
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
+
 -- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
@@ -11,30 +25,67 @@ local UICorner_2 = Instance.new("UICorner")
 local X = Instance.new("TextButton")
 local VHubImageLabel = Instance.new("ImageLabel")
 local Version = Instance.new("TextLabel")
+local ScriptsNames = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local EXPLOIT1 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local EXPLOIT2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local EXPLOIT3 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local EXPLOIT4 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local EXPLOIT5 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local EXPLOIT6 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local EXPLOIT7 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local EXPLOIT8 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local EXPLOIT9 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local PreviousPage = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local NextPage = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local PageDescription = Instance.new("TextLabel")
+local SectionsFrame = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Scripts = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local RequiredItems = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local GUIS = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Animations = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Commands = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local OtherHubs = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local APIExecutor = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
 local VHubIcon = Instance.new("ImageLabel")
-local Reload = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local UhOhText = Instance.new("TextLabel")
-local Error = Instance.new("TextLabel")
-local Message1 = Instance.new("TextLabel")
-local Message2 = Instance.new("TextLabel")
+local AnnouncementText = Instance.new("TextLabel")
+local ButtonsFrame = Instance.new("Frame")
+local Continue = Instance.new("TextButton")
 local DiscordLink = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local Message3 = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local VersionNum = Instance.new("TextLabel")
+local VersionUpdates = Instance.new("TextLabel")
+local OwnerTitle = Instance.new("TextLabel")
+local itsyaboivincentt5315 = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.ResetOnSpawn = false
-
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = ScreenGui
+MainFrame.Name = "MainPage"
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+MainFrame.Position = UDim2.new(0, 0, 0, 0)
 MainFrame.Size = UDim2.new(0, 387, 0, 239)
-MainFrame.Active = true
-MainFrame.Draggable = true
 
 UICorner.Parent = MainFrame
 
@@ -51,14 +102,18 @@ X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 X.BackgroundTransparency = 1.000
 X.Position = UDim2.new(0.930303454, 0, 0.100000001, 0)
 X.Size = UDim2.new(0, 26, 0, 23)
-X.Font = Enum.Font.Gotham
+X.Font = Enum.Font.FredokaOne
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(255, 255, 255)
 X.TextScaled = true
 X.TextSize = 14.000
 X.TextWrapped = true
 X.MouseButton1Down:connect(function()
-ScreenGui:Destroy()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Error";
+	Text = "Something Went Wrong.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
 end)
 
 VHubImageLabel.Name = "VHubImageLabel"
@@ -66,7 +121,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -74,8 +129,8 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
-Version.Text = "VHub | Maintenance"
+Version.Font = Enum.Font.GothamSemibold
+Version.Text = "VHub | Main Page"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
 Version.TextWrapped = true
@@ -85,85 +140,104 @@ VHubIcon.Name = "VHubIcon"
 VHubIcon.Parent = MainFrame
 VHubIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubIcon.BackgroundTransparency = 1.000
-VHubIcon.Position = UDim2.new(0.434108526, 0, 0.138075307, 0)
+VHubIcon.Position = UDim2.new(0.0206718352, 0, 0.138075307, 0)
 VHubIcon.Size = UDim2.new(0, 50, 0, 50)
-VHubIcon.Image = "rbxassetid://8036184551"
+VHubIcon.Image = "rbxassetid://9408318893"
 
-Reload.Name = "Reload"
-Reload.Parent = MainFrame
-Reload.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Reload.Position = UDim2.new(0.730658174, 0, 0.865944684, 0)
-Reload.Size = UDim2.new(0, 94, 0, 21)
-Reload.Font = Enum.Font.Gotham
-Reload.Text = "Reload"
-Reload.TextColor3 = Color3.fromRGB(0, 0, 0)
-Reload.TextScaled = true
-Reload.TextSize = 14.000
-Reload.TextWrapped = true
-Reload.MouseButton1Down:connect(function()
-ScreenGui:Destroy()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+AnnouncementText.Name = "Announcement Text"
+AnnouncementText.Parent = MainFrame
+AnnouncementText.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+AnnouncementText.BackgroundTransparency = 0
+AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
+AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
+AnnouncementText.Font = Enum.Font.Gotham
+AnnouncementText.Text = "Omg New Logo. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
+AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnnouncementText.TextSize = 12
+AnnouncementText.TextWrapped = true
+
+UICorner_12.Parent = AnnouncementText
+
+ButtonsFrame.Name = "ButtonsFrame"
+ButtonsFrame.Parent = MainFrame
+ButtonsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ButtonsFrame.Position = UDim2.new(0.015, 0, 0.830, 0)
+ButtonsFrame.Size = UDim2.new(0, 220, 0, 30)
+
+UICorner_15.Parent = ButtonsFrame
+
+Continue.Name = "Continue"
+Continue.Parent = ButtonsFrame
+Continue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Continue.Position = UDim2.new(0.53, 0, 0.160, 0)
+Continue.Size = UDim2.new(0, 94, 0, 21)
+Continue.Font = Enum.Font.Gotham
+Continue.Text = "Launch"
+Continue.TextColor3 = Color3.fromRGB(0, 0, 0)
+Continue.TextScaled = true
+Continue.TextSize = 14.000
+Continue.TextWrapped = true
+Continue.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Intro'),true))()
+wait(4)
+
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Home%20Page'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Update%20Log'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20FPS%20GUI'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20API%20Executor'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Settings'),true))()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Successfully Loaded!";
+	Text = "Made By: itsyaboivincentt#5315 On Discord! :o";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Disclaimer!";
+	Text = "The Scripts Aren't Made By Me, Credits To Them. And Credits To 🩸Poek#5088 For The Icon.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Version:";
+	Text = "Current Version For Today Is Version 1.09!";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Update Log";
+	Text = "To View Update Log, Type /console";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Discord";
+	Text = "Join For More Information: discord.gg/3NN5zTW7h2.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
+wait(20)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Note!";
+	Text = "Some Of The Scripts Are Buggy.";
+	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+Duration = 16;
 end)
 
-UICorner_3.Parent = Reload
-
-UhOhText.Name = "Uh Oh Text"
-UhOhText.Parent = MainFrame
-UhOhText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UhOhText.BackgroundTransparency = 1.000
-UhOhText.Position = UDim2.new(0.240310073, 0, 0.347280324, 0)
-UhOhText.Size = UDim2.new(0, 200, 0, 26)
-UhOhText.Font = Enum.Font.Gotham
-UhOhText.Text = "Uh, Oh!"
-UhOhText.TextColor3 = Color3.fromRGB(255, 255, 255)
-UhOhText.TextScaled = true
-UhOhText.TextSize = 14.000
-UhOhText.TextWrapped = true
-
-Error.Name = "Error"
-Error.Parent = MainFrame
-Error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Error.BackgroundTransparency = 1.000
-Error.Position = UDim2.new(0.0155038759, 0, 0.924686193, 0)
-Error.Size = UDim2.new(0, 68, 0, 18)
-Error.Font = Enum.Font.Gotham
-Error.Text = "Error:400"
-Error.TextColor3 = Color3.fromRGB(255, 255, 255)
-Error.TextSize = 14.000
-Error.TextWrapped = true
-
-Message1.Name = "Message1"
-Message1.Parent = MainFrame
-Message1.Active = true
-Message1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Message1.BackgroundTransparency = 1.000
-Message1.Position = UDim2.new(0.191214472, 0, 0.456066906, 0)
-Message1.Size = UDim2.new(0, 238, 0, 44)
-Message1.SizeConstraint = Enum.SizeConstraint.RelativeYY
-Message1.Font = Enum.Font.Gotham
-Message1.Text = "VHub Is Currently On Maintenance."
-Message1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Message1.TextSize = 14.000
-Message1.TextWrapped = true
-
-Message2.Name = "Message2"
-Message2.Parent = MainFrame
-Message2.Active = true
-Message2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Message2.BackgroundTransparency = 1.000
-Message2.Position = UDim2.new(0.191214472, 0, 0.510460198, 0)
-Message2.Size = UDim2.new(0, 238, 0, 44)
-Message2.SizeConstraint = Enum.SizeConstraint.RelativeYY
-Message2.Font = Enum.Font.Gotham
-Message2.Text = "Don't Worry! It Will Be Back Soon!"
-Message2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Message2.TextSize = 14.000
-Message2.TextWrapped = true
+UICorner_10.Parent = Continue
 
 DiscordLink.Name = "Discord Link"
-DiscordLink.Parent = MainFrame
+DiscordLink.Parent = ButtonsFrame
 DiscordLink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DiscordLink.Position = UDim2.new(0.461924314, 0, 0.865944684, 0)
+DiscordLink.Position = UDim2.new(0.03, 0, 0.160, 0)
 DiscordLink.Size = UDim2.new(0, 94, 0, 21)
 DiscordLink.Font = Enum.Font.Gotham
 DiscordLink.Text = "Copy Discord Link"
@@ -176,18 +250,81 @@ DiscordLink.Text = "Copied To Clipboard!"
 setclipboard("discord.gg/3NN5zTW7h2")
 end)
 
-UICorner_4.Parent = DiscordLink
+UICorner_11.Parent = DiscordLink
 
-Message3.Name = "Message3"
-Message3.Parent = MainFrame
-Message3.Active = true
-Message3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Message3.BackgroundTransparency = 1.000
-Message3.Position = UDim2.new(0.16020672, 0, 0.564853489, 0)
-Message3.Size = UDim2.new(0, 261, 0, 44)
-Message3.SizeConstraint = Enum.SizeConstraint.RelativeYY
-Message3.Font = Enum.Font.Gotham
-Message3.Text = "I'm Adding/Fixing Something In VHub!"
-Message3.TextColor3 = Color3.fromRGB(255, 255, 255)
-Message3.TextSize = 14.000
-Message3.TextWrapped = true
+Credits.Name = "Credits"
+Credits.Parent = MainFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.150, 0, 0.138, 0)
+Credits.Size = UDim2.new(0.300, 0, 0.20, 0)
+Credits.Font = Enum.Font.GothamSemibold
+Credits.Text = "Announcement:"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+SectionsFrame.Name = "UpdatesFrame"
+SectionsFrame.Parent = MainFrame
+SectionsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+SectionsFrame.Position = UDim2.new(0.600, 0, 0.140, 0)
+SectionsFrame.Size = UDim2.new(0, 150, 0, 200)
+
+UICorner_22.Parent = SectionsFrame
+
+VersionNum.Name = "VersionNum"
+VersionNum.Parent = SectionsFrame
+VersionNum.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+VersionNum.BackgroundTransparency = 0
+VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
+VersionNum.Size = UDim2.new(0, 130, 0, 18)
+VersionNum.Font = Enum.Font.GothamSemibold
+VersionNum.Text = "Version: 1.10"
+VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionNum.TextScaled = true
+VersionNum.TextSize = 14.000
+VersionNum.TextWrapped = true
+
+UICorner_13.Parent = VersionNum
+
+VersionUpdates.Name = "VersionUpdates"
+VersionUpdates.Parent = SectionsFrame
+VersionUpdates.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+VersionUpdates.BackgroundTransparency = 0
+VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
+VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
+VersionUpdates.Font = Enum.Font.Gotham
+VersionUpdates.Text = "-Added Reach GUI                            -Changed Logo                         -Removed Patched Scripts                         -Updated Ice Hub"
+VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
+VersionUpdates.TextScaled = false
+VersionUpdates.TextSize = 12.000
+VersionUpdates.TextWrapped = true
+VersionUpdates.TextXAlignment = Enum.TextXAlignment.Left
+VersionUpdates.TextYAlignment = Enum.TextYAlignment.Top
+
+OwnerTitle.Name = "OwnerTitle"
+OwnerTitle.Parent = SectionsFrame
+OwnerTitle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+OwnerTitle.BackgroundTransparency = 1
+OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.800, 0)
+OwnerTitle.Size = UDim2.new(0, 130, 0, 18)
+OwnerTitle.Font = Enum.Font.GothamSemibold
+OwnerTitle.Text = "Owner And Developed By:"
+OwnerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwnerTitle.TextScaled = true
+OwnerTitle.TextSize = 14.000
+OwnerTitle.TextWrapped = true
+
+itsyaboivincentt5315.Name = "itsyaboivincentt5315"
+itsyaboivincentt5315.Parent = SectionsFrame
+itsyaboivincentt5315.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+itsyaboivincentt5315.BackgroundTransparency = 1
+itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.850, 0)
+itsyaboivincentt5315.Size = UDim2.new(0, 130, 0, 18)
+itsyaboivincentt5315.Font = Enum.Font.Gotham
+itsyaboivincentt5315.Text = "itsyaboivincentt#5315"
+itsyaboivincentt5315.TextColor3 = Color3.fromRGB(200, 200, 200)
+itsyaboivincentt5315.TextScaled = false
+itsyaboivincentt5315.TextSize = 10.000
+itsyaboivincentt5315.TextWrapped = true
