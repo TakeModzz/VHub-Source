@@ -95,7 +95,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -106,7 +106,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Other Hubs"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -134,7 +134,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/Gae7YC84"))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Moon Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -156,7 +156,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Script-HubScripts/-/m
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed BozoHub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -178,7 +178,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/UpFmqc94" , true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Psy Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -200,7 +200,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/tWi2XGEr", true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed GabX Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -222,7 +222,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptoni
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed CryptonicHub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -244,7 +244,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/FLyDbpBq'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Melon Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -266,7 +266,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/U0Hzycrm"))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Seek Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -284,11 +284,11 @@ EXPLOIT8.TextScaled = true
 EXPLOIT8.TextSize = 14.000
 EXPLOIT8.TextWrapped = true
 EXPLOIT8.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/aaaaaa/main/aaaaaaa"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Ice Hub!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
