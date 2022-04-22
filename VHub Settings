@@ -64,7 +64,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Settings"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -73,7 +73,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Scripts.Name = "Scripts"
 Scripts.Parent = MainFrame
