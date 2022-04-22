@@ -95,7 +95,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -106,7 +106,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | GUIS"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -134,7 +134,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/r97d7dS0'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Fling GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -156,7 +156,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/E9a7QmCZ'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Shiftlock GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -178,7 +178,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/pUWgseqt'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Magnet GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -200,7 +200,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/61VhedB4'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Yeet GUI V4!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -212,18 +212,12 @@ EXPLOIT5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT5.Position = UDim2.new(0.352518022, 0, 0.345625222, 0)
 EXPLOIT5.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT5.Font = Enum.Font.Gotham
-EXPLOIT5.Text = "F*** GUI (R6)" 
+EXPLOIT5.Text = "Soon" 
 EXPLOIT5.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT5.TextScaled = true
 EXPLOIT5.TextSize = 14.000
 EXPLOIT5.TextWrapped = true
 EXPLOIT5.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Itsyaboivincentt/something/main/.gitignore'),true))()
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script:";
-	Text = "Successfully Executed F*** GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
-Duration = 16;
 end)
 
 UICorner_15.Parent = EXPLOIT5
@@ -244,7 +238,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/U290qDC2'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed OPFinality GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -266,14 +260,14 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/1N4rZQ0J'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Ultimate Fling GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Notice!";
 	Text = "If You Cant Move, Execute Fly GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -295,7 +289,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/pr5Ma9tw'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Vehicle Fly GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -317,19 +311,21 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/vE1aGhw3'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Head Fling GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
+wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Notice!";
 	Text = "If You Cant Move, Execute Fly GUI!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
+wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Notice!";
 	Text = "If You Cant Reset, Execute Ultimate Fling GUI And Press Fling!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
