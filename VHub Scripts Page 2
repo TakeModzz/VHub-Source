@@ -95,7 +95,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -106,7 +106,7 @@ Version.Size = UDim2.new(0, 300, 0, 25)
 Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Scripts"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
-Version.TextSize = 14.000
+Version.TextSize = 13.000
 Version.TextWrapped = true
 Version.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -134,7 +134,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/n7wqcH9D'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Teleport Tool!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -156,14 +156,14 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/0U0LUgRm'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Chat Log!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Notice!";
 	Text = "To View Chat Log, Type /console";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -185,7 +185,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/uPc0ir3b'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Telekinesis Gun!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -207,7 +207,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/BVbG4ei7'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Balloon Stealer!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -229,7 +229,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/tKu2vZrb'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Color Block Auto Play!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -251,7 +251,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/X8cG57XV'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Tower Of Hell Invincibility!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -273,7 +273,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/uPc8Ku9f'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Hitbox!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -285,25 +285,12 @@ EXPLOIT8.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT8.Position = UDim2.new(0.352518022, 0, 0.64, 0)
 EXPLOIT8.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT8.Font = Enum.Font.Gotham
-EXPLOIT8.Text = "No Jumping Difficulty Chart Obby Skip Stage"
+EXPLOIT8.Text = "Soon"
 EXPLOIT8.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT8.TextScaled = true
 EXPLOIT8.TextSize = 14.000
 EXPLOIT8.TextWrapped = true
 EXPLOIT8.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/t8UMLPKw'),true))()
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script:";
-	Text = "Successfully Executed No Jumping Difficulty Chart Obby Skip Stage!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
-Duration = 16;
-wait(5)
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Notice!";
-	Text = "If The Game Gives You A Warning And The Script Stopped, You May Need To Execute The Script Again!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
-Duration = 16;
 end)
 
 UICorner_18.Parent = EXPLOIT8
@@ -324,7 +311,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/BXpumAJs'),true))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
 	Text = "Successfully Executed Tall!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -335,7 +322,7 @@ PreviousPage.Parent = MainFrame
 PreviousPage.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 PreviousPage.Position = UDim2.new(0.258397937, 0, 0.138075307, 0)
 PreviousPage.Size = UDim2.new(0, 48, 0, 36)
-PreviousPage.Font = Enum.Font.GothamSemibold
+PreviousPage.Font = Enum.Font.Gotham
 PreviousPage.Text = "Previous Page"
 PreviousPage.TextColor3 = Color3.fromRGB(255, 255, 255)
 PreviousPage.TextScaled = true
