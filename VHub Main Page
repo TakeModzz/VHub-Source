@@ -214,42 +214,42 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Successfully Loaded!";
 	Text = "Made By: itsyaboivincentt#5315 On Discord! :o";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Disclaimer!";
 	Text = "The Scripts Aren't Made By Me, Credits To Them. And Credits To 🩸Poek#5088 For The Icon.";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version For Today Is Version 1.09!";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Text = "Current Version For Today Is Version 1.11!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Update Log";
 	Text = "To View Update Log, Type /console";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Discord";
 	Text = "Join For More Information: discord.gg/3NN5zTW7h2.";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(20)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Note!";
 	Text = "Some Of The Scripts Are Buggy.";
-	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
 
@@ -301,7 +301,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.10"
+VersionNum.Text = "Version: 1.11"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -316,7 +316,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Added Reach GUI                            -Changed Logo                         -Removed Patched Scripts                         -Updated Ice Hub"
+VersionUpdates.Text = "-Added Dick Ride                   -Added Free Cam"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 12.000
