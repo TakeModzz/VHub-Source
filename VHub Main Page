@@ -220,14 +220,14 @@ wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Disclaimer!";
-	Text = "The Scripts Aren't Made By Me, Credits To Them. And Credits To 🩸Poek#5088 For The Icon.";
+	Text = "The Scripts Aren't Made By Me, Credits To Them.";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version For Today Is Version 1.11!";
+	Text = "Current Version For Today Is Version 1.12!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -301,7 +301,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.11"
+VersionNum.Text = "Version: 1.12"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -316,7 +316,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Added Dick Ride                   -Added Free Cam"
+VersionUpdates.Text = "-Added Gun                       -Added Smile                        -Added UFO Car"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 12.000
