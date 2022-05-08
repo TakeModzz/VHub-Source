@@ -28,6 +28,23 @@ VHubSystem.Text = "VHub System: itsyaboivincentt Aka VHub Owner Joined This Serv
 wait(5)
 
 VHubSystem:Destroy()
+
+elseif Plr.Name == "ChilliChicken3" then
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Owner Joined!";
+	Text = "ChilliChicken3 Joined This Server!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
+game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐]  Chili"
+
+local VHubSystem = Instance.new("Hint")
+
+VHubSystem.Name = "VHubSystem"
+VHubSystem.Parent = game.Workspace
+VHubSystem.Text = "VHub System: ChilliChicken3 Aka VHub Co-Owner Joined This Server!"
+wait(5)
+
+VHubSystem:Destroy()
 end
 end)
 
@@ -99,6 +116,8 @@ local VersionNum = Instance.new("TextLabel")
 local VersionUpdates = Instance.new("TextLabel")
 local OwnerTitle = Instance.new("TextLabel")
 local itsyaboivincentt5315 = Instance.new("TextLabel")
+local And = Instance.new("TextLabel")
+local lookatit7626 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -172,7 +191,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "Omg New Logo. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
+AnnouncementText.Text = "Congratulations To look at it#7626 For Being The Co-Owner Of VHub! Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 12
 AnnouncementText.TextWrapped = true
@@ -213,7 +232,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Successfully Loaded!";
-	Text = "Made By: itsyaboivincentt#5315 On Discord! :o";
+	Text = "Made By: itsyaboivincentt#5315 And look at it#7626 On Discord! :o";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
@@ -328,10 +347,10 @@ OwnerTitle.Name = "OwnerTitle"
 OwnerTitle.Parent = SectionsFrame
 OwnerTitle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 OwnerTitle.BackgroundTransparency = 1
-OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.800, 0)
+OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.740, 0)
 OwnerTitle.Size = UDim2.new(0, 130, 0, 18)
 OwnerTitle.Font = Enum.Font.GothamSemibold
-OwnerTitle.Text = "Owner And Developed By:"
+OwnerTitle.Text = "Owned And Developed By:"
 OwnerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 OwnerTitle.TextScaled = true
 OwnerTitle.TextSize = 14.000
@@ -341,7 +360,7 @@ itsyaboivincentt5315.Name = "itsyaboivincentt5315"
 itsyaboivincentt5315.Parent = SectionsFrame
 itsyaboivincentt5315.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 itsyaboivincentt5315.BackgroundTransparency = 1
-itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.850, 0)
+itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.790, 0)
 itsyaboivincentt5315.Size = UDim2.new(0, 130, 0, 18)
 itsyaboivincentt5315.Font = Enum.Font.Gotham
 itsyaboivincentt5315.Text = "itsyaboivincentt#5315"
@@ -349,3 +368,29 @@ itsyaboivincentt5315.TextColor3 = Color3.fromRGB(200, 200, 200)
 itsyaboivincentt5315.TextScaled = false
 itsyaboivincentt5315.TextSize = 10.000
 itsyaboivincentt5315.TextWrapped = true
+
+And.Name = "And"
+And.Parent = SectionsFrame
+And.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+And.BackgroundTransparency = 1
+And.Position = UDim2.new(0.0649999976, 0, 0.830, 0)
+And.Size = UDim2.new(0, 130, 0, 18)
+And.Font = Enum.Font.Gotham
+And.Text = "And"
+And.TextColor3 = Color3.fromRGB(255, 255, 255)
+And.TextScaled = false
+And.TextSize = 10.000
+And.TextWrapped = true
+
+lookatit7626.Name = "look at it7626"
+lookatit7626.Parent = SectionsFrame
+lookatit7626.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+lookatit7626.BackgroundTransparency = 1
+lookatit7626.Position = UDim2.new(0.0649999976, 0, 0.870, 0)
+lookatit7626.Size = UDim2.new(0, 130, 0, 18)
+lookatit7626.Font = Enum.Font.Gotham
+lookatit7626.Text = "look at it#7626"
+lookatit7626.TextColor3 = Color3.fromRGB(200, 200, 200)
+lookatit7626.TextScaled = false
+lookatit7626.TextSize = 10.000
+lookatit7626.TextWrapped = true
