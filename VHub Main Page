@@ -11,44 +11,11 @@ repeat wait() until game:IsLoaded()
 
 pcall(function() getgenv().VHub_LOADED = true end)
 
-game.Players.PlayerAdded:connect(function(plr)
-if plr.Name == "itsyaboivincentt" then
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Owner Joined!";
-	Text = "itsyaboivincentt Joined This Server!";
-	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
-Duration = 16;
-game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] Vincent" 
-
-local VHubSystem = Instance.new("Hint")
-
-VHubSystem.Name = "VHubSystem"
-VHubSystem.Parent = game.Workspace
-VHubSystem.Text = "VHub System: itsyaboivincentt Aka VHub Owner Joined This Server!"
-wait(5)
-
-VHubSystem:Destroy()
-
-elseif Plr.Name == "ChilliChicken3" then
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Owner Joined!";
-	Text = "ChilliChicken3 Joined This Server!";
-	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
-Duration = 16;
-game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐]  Chili"
-
-local VHubSystem = Instance.new("Hint")
-
-VHubSystem.Name = "VHubSystem"
-VHubSystem.Parent = game.Workspace
-VHubSystem.Text = "VHub System: ChilliChicken3 Aka VHub Co-Owner Joined This Server!"
-wait(5)
-
-VHubSystem:Destroy()
-end
-end)
 
 
+
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lookatit7626/LAT/main/Owner%20Display%20VHUB'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
 
 -- Gui to Lua
@@ -394,3 +361,4 @@ lookatit7626.TextColor3 = Color3.fromRGB(200, 200, 200)
 lookatit7626.TextScaled = false
 lookatit7626.TextSize = 10.000
 lookatit7626.TextWrapped = true
+
