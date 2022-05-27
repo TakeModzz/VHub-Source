@@ -234,12 +234,13 @@ EXPLOIT6.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT6.Position = UDim2.new(0.683453262, 0, 0.345625222, 0)
 EXPLOIT6.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT6.Font = Enum.Font.Gotham
-EXPLOIT6.Text = "Soon"
+EXPLOIT6.Text = "Fly GUI V3"
 EXPLOIT6.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT6.TextScaled = true
 EXPLOIT6.TextSize = 14.000
 EXPLOIT6.TextWrapped = true
 EXPLOIT6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Quan8008/ok/main/Oki"))()
 end)
 
 UICorner_16.Parent = EXPLOIT6
