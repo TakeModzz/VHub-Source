@@ -251,12 +251,17 @@ EXPLOIT7.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT7.Position = UDim2.new(0.0323741436, 0, 0.64, 0)
 EXPLOIT7.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT7.Font = Enum.Font.Gotham
-EXPLOIT7.Text = "Soon" 
+EXPLOIT7.Text = "Chat Hax" 
 EXPLOIT7.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT7.TextScaled = true
 EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Jxnmt3aM"))()
+Title = "Script:";
+	Text = "Successfully Executed Chat Hax!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_17.Parent = EXPLOIT7
