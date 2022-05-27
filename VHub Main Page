@@ -208,7 +208,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version For Today Is Version 1.13!";
+	Text = "Current Version For Today Is Version 1.15!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -282,7 +282,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.14"
+VersionNum.Text = "Version: 1.15"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -297,7 +297,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Added TP GUI                       -Added Peterating Background"
+VersionUpdates.Text = "-Added Fly GUI V3                       -Added chat hax"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 12.000
