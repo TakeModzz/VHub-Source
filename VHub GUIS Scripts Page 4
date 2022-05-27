@@ -346,7 +346,7 @@ NextPage.TextScaled = true
 NextPage.TextSize = 14.000
 NextPage.TextWrapped = true
 NextPage.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20GUIS%20Scripts%20Page%205'))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20GUIS%20Scripts%20Page%205'),true))()
 MainFrame:Destroy()
 end)
 
