@@ -154,9 +154,9 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "Hello, "..game:GetService("Players").LocalPlayer.Name..". Congratulations To Quandale The Dinglish XII#3550 For Becoming A VHub Developer.I'll Be (itsyaboivincentt) Not Updating VHub For Now. But Don't Worry! look at it#7626 And Quandale The Dinglish XII#3550 Will Be Updating VHub For Now. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs Or If You Have A Suggestion, Join Our Discord Server!"
+AnnouncementText.Text = "Hello, "..game:GetService("Players").LocalPlayer.Name..". Congratulations To Quandale The Dinglish XII#3550 For Becoming A VHub Developer. I'll Be (itsyaboivincentt) Not Updating VHub For Now. But Don't Worry! look at it#7626 And Quandale The Dinglish XII#3550 Will Be Updating VHub For Now. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs Or If You Have A Suggestion, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnnouncementText.TextSize = 12
+AnnouncementText.TextSize = 10
 AnnouncementText.TextWrapped = true
 
 UICorner_12.Parent = AnnouncementText
@@ -208,7 +208,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Is 1.15!";
+	Text = "Current Is 1.16!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
