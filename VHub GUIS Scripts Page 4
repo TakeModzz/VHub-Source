@@ -300,16 +300,16 @@ EXPLOIT9.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT9.Position = UDim2.new(0.683453262, 0, 0.64, 0)
 EXPLOIT9.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT9.Font = Enum.Font.Gotham
-EXPLOIT9.Text = "Hitbox Toggle Size GUI" 
+EXPLOIT9.Text = "Hitbox Toggle Size GUI V2" 
 EXPLOIT9.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT9.TextScaled = true
 EXPLOIT9.TextSize = 14.000
 EXPLOIT9.TextWrapped = true
 EXPLOIT9.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/jD2ThmCX'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/W3HhJPmW"))()
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
-	Text = "Successfully Executed Hitbox Toggle Size GUI!";
+	Text = "Successfully Executed Hitbox Toggle Size GUI v2!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
