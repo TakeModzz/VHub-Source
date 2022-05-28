@@ -80,7 +80,7 @@ local VersionUpdates = Instance.new("TextLabel")
 local OwnerTitle = Instance.new("TextLabel")
 local itsyaboivincentt5315 = Instance.new("TextLabel")
 local And = Instance.new("TextLabel")
-local lookatit7626 = Instance.new("TextLabel")
+local Others = Instance.new("TextLabel")
 
 --Properties:
 
@@ -154,7 +154,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "Hello, "..game:GetService("Players").LocalPlayer.Name..". Ill Be (itsyaboivincentt) Not Updating VHub Until Some Days. But Don't Worry! look at it#7626 Will Be Updating VHub For Now On. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server!"
+AnnouncementText.Text = "Hello, "..game:GetService("Players").LocalPlayer.Name..". Congratulations To Quandale The Dinglish XII#3550 For Becoming A VHub Developer.I'll Be (itsyaboivincentt) Not Updating VHub For Now. But Don't Worry! look at it#7626 And Quandale The Dinglish XII#3550 Will Be Updating VHub For Now. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs Or If You Have A Suggestion, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 12
 AnnouncementText.TextWrapped = true
@@ -193,22 +193,22 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Settings'),true))()
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Successfully Loaded!";
-	Text = "Made By: itsyaboivincentt#5315 And look at it#7626 On Discord! :o";
+	Title = "Credits";
+	Text = "Made By: itsyaboivincentt#5315, look at it#7626, Quandale The Dinglish XII#3550";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Disclaimer!";
-	Text = "The Scripts Aren't Made By Me, Credits To Them.";
+	Text = "The Scripts Aren't Made By Us, Credits To Them.";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version For Today Is Version 1.15!";
+	Text = "Current Is 1.15!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -309,7 +309,7 @@ OwnerTitle.Name = "OwnerTitle"
 OwnerTitle.Parent = SectionsFrame
 OwnerTitle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 OwnerTitle.BackgroundTransparency = 1
-OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.740, 0)
+OwnerTitle.Position = UDim2.new(0.0649999976, 0, 0.680, 0)
 OwnerTitle.Size = UDim2.new(0, 130, 0, 18)
 OwnerTitle.Font = Enum.Font.GothamSemibold
 OwnerTitle.Text = "Owned And Developed By:"
@@ -322,7 +322,7 @@ itsyaboivincentt5315.Name = "itsyaboivincentt5315"
 itsyaboivincentt5315.Parent = SectionsFrame
 itsyaboivincentt5315.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 itsyaboivincentt5315.BackgroundTransparency = 1
-itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.790, 0)
+itsyaboivincentt5315.Position = UDim2.new(0.0649999976, 0, 0.730, 0)
 itsyaboivincentt5315.Size = UDim2.new(0, 130, 0, 18)
 itsyaboivincentt5315.Font = Enum.Font.Gotham
 itsyaboivincentt5315.Text = "itsyaboivincentt#5315"
@@ -335,7 +335,7 @@ And.Name = "And"
 And.Parent = SectionsFrame
 And.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 And.BackgroundTransparency = 1
-And.Position = UDim2.new(0.0649999976, 0, 0.830, 0)
+And.Position = UDim2.new(0.0649999976, 0, 0.780, 0)
 And.Size = UDim2.new(0, 130, 0, 18)
 And.Font = Enum.Font.Gotham
 And.Text = "And"
@@ -344,15 +344,15 @@ And.TextScaled = false
 And.TextSize = 10.000
 And.TextWrapped = true
 
-lookatit7626.Name = "look at it7626"
-lookatit7626.Parent = SectionsFrame
-lookatit7626.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-lookatit7626.BackgroundTransparency = 1
-lookatit7626.Position = UDim2.new(0.0649999976, 0, 0.870, 0)
-lookatit7626.Size = UDim2.new(0, 130, 0, 18)
-lookatit7626.Font = Enum.Font.Gotham
-lookatit7626.Text = "look at it#7626"
-lookatit7626.TextColor3 = Color3.fromRGB(200, 200, 200)
-lookatit7626.TextScaled = false
-lookatit7626.TextSize = 10.000
-lookatit7626.TextWrapped = true
+Others.Name = "Other Devs"
+Others.Parent = SectionsFrame
+Others.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Others.BackgroundTransparency = 1
+Others.Position = UDim2.new(0.0649999976, 0, 0.870, 0)
+Others.Size = UDim2.new(0, 130, 0, 18)
+Others.Font = Enum.Font.Gotham
+Others.Text = "look at it#7626, Quandale The Dinglish XII#3550"
+Others.TextColor3 = Color3.fromRGB(200, 200, 200)
+Others.TextScaled = false
+Others.TextSize = 8.5
+Others.TextWrapped = true
