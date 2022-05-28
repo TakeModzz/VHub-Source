@@ -168,16 +168,118 @@ EXPLOIT3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT3.Position = UDim2.new(0.683453262, 0, 0.0526315793, 0)
 EXPLOIT3.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT3.Font = Enum.Font.Gotham
-EXPLOIT3.Text = "Keyboard Keyblinds"
+EXPLOIT3.Text = "Keyboard Keyblinds V2"
 EXPLOIT3.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT3.TextScaled = true
 EXPLOIT3.TextSize = 14.000
 EXPLOIT3.TextWrapped = true
 EXPLOIT3.MouseButton1Down:connect(function()
+
+--Sorry for not making a loadstring lol
+
+--Original Loadstring
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+ 
+--//Locals {
+local lol = game.CoreGui.RobloxGui.NotificationFrame:WaitForChild("Notification")
+local KB = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Minimize2 = Instance.new("TextButton")
+local txt = Instance.new("TextLabel")
+--//Locals {
+lol.Name = "lel"
+lol.NotificationTitle.Text = "Keyboard V2"
+lol.NotificationText.Text = "Credits to Kokjindesu for making the original gui"
+KB.Name = "Keyboard GUI"
+KB.Parent = game.CoreGui
+KB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Drag.Name = "Drag"
+Drag.Parent = KB
+Drag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Drag.BorderSizePixel = 0
+Drag.Position = UDim2.new(0.147916675, 0, 0.0593749993, 0)
+Drag.Size = UDim2.new(0, 270, 0, 30)
+Drag.Active = true
+Drag.Draggable = true
+ 
+--//Close Button {
+Close.Name = "Close"
+Close.Parent = Drag
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.999839723, 0, -0.00729167089, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "x"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 35.000
+Close.MouseButton1Click:Connect(function()
+    KB:Destroy()
+end)
+--//Close Button }
+ 
+--//Minimize Button {
+Minimize.Name = "Minimize"
+Minimize.Parent = Drag
+Minimize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0, 240, 0, 0)
+Minimize.Size = UDim2.new(0, 30, 0, 30)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextSize = 35.000
+ 
+Minimize2.Name = "Minimize2"
+Minimize2.Parent = Drag
+Minimize2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Minimize2.BorderSizePixel = 0
+Minimize2.Position = UDim2.new(0, 240, 0, 0)
+Minimize2.Size = UDim2.new(0, 30, 0, 30)
+Minimize2.Font = Enum.Font.SourceSans
+Minimize2.Text = "-"
+Minimize2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize2.TextSize = 35.000
+Minimize2.Visible = false
+ 
+Minimize.MouseButton1Click:Connect(function()
+    game.CoreGui["Keyboard GUI"].Drag.KeyBoard.Visible = false
+    game.CoreGui["Keyboard GUI"].Drag.Minimize.Visible = false
+    game.CoreGui["Keyboard GUI"].Drag.Minimize2.Visible = true
+end)
+ 
+Minimize2.MouseButton1Click:Connect(function()
+    game.CoreGui["Keyboard GUI"].Drag.KeyBoard.Visible = true
+    game.CoreGui["Keyboard GUI"].Drag.Minimize.Visible = true
+    game.CoreGui["Keyboard GUI"].Drag.Minimize2.Visible = false
+end)
+--//Minimize Button }
+ 
+game.CoreGui["BUNB0yBUN BOARD"].KeyBoard.Parent = Drag
+game.CoreGui["BUNB0yBUN BOARD"]:Destroy() -- lol
+game.CoreGui["Keyboard GUI"].Drag.KeyBoard["t34bnr n3 f 903h 9f389 h348t94hgthtrefs7fg7segf7s7gv g 8787g78g*867gG^*g78G&*&G*E&*$&*$&*$$&*$& SCRI"].Text = "Keyboard GUI V3"
+game.CoreGui["Keyboard GUI"].Drag.KeyBoard.Position = UDim2.new(0, 0, 0, 35)
+game.CoreGui["Keyboard GUI"].Drag.KeyBoard["t34bnr n3 f 903h 9f389 h348t94hgthtrefs7fg7segf7s7gv g 8787g78g*867gG^*g78G&*&G*E&*$&*$&*$$&*$& SCRI"].TextSize = 10
+ 
+txt.Name = "txt"
+txt.Parent = Drag
+txt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+txt.BorderSizePixel = 0
+txt.Position = UDim2.new(0, 50, 0, 0)
+txt.Size = UDim2.new(0, 30, 0, 30)
+txt.Font = Enum.Font.SourceSans
+txt.Text = "Keyboard GUI V2"
+txt.TextColor3 = Color3.fromRGB(255, 255, 255)
+txt.TextSize = 20 
+wait(7)
+game.CoreGui.RobloxGui.NotificationFrame:WaitForChild("lel"):Destroy()
+--imagine crying over someone not crediting you
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script:";
-	Text = "Successfully Executed Keyboard Keyblinds!";
+	Text = "Successfully Executed Keyboard Keyblinds V2!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 end)
