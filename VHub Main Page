@@ -154,9 +154,9 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "Hello, "..game:GetService("Players").LocalPlayer.Name..". Congratulations To Quandale The Dinglish XII#3550 For Becoming A VHub Developer. I'll Be (itsyaboivincentt) Not Updating VHub For Now. But Don't Worry! look at it#7626 And Quandale The Dinglish XII#3550 Will Be Updating VHub For Now. Anyways If Your Having Trouble Using VHub Or VHub Have Some Bugs Or If You Have A Suggestion, Join Our Discord Server!"
+AnnouncementText.Text = "itsyaboivincentt (owner of vhub) just died in real life (rip) anywas if you're ha having issues using vhub or if you'd like to report a bug or submit a suggestion, join our discord server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnnouncementText.TextSize = 10
+AnnouncementText.TextSize = 12
 AnnouncementText.TextWrapped = true
 
 UICorner_12.Parent = AnnouncementText
