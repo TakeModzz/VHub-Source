@@ -23,7 +23,7 @@ local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
-local X = Instance.new("TextButton")
+--local X = Instance.new("TextButton") --retards 🗿
 local VHubImageLabel = Instance.new("ImageLabel")
 local Version = Instance.new("TextLabel")
 local ScriptsNames = Instance.new("Frame")
@@ -99,6 +99,7 @@ DesignFrame.Size = UDim2.new(0, 387, 0, 30)
 
 UICorner_2.Parent = DesignFrame
 
+--[[
 X.Name = "X"
 X.Parent = DesignFrame
 X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -118,6 +119,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=8036184560&w=150&h=150"})
 Duration = 16;
 end)
+]] --smh
 
 VHubImageLabel.Name = "VHubImageLabel"
 VHubImageLabel.Parent = DesignFrame
@@ -154,7 +156,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "News: itsyaboivincentt (owner of vhub) didn't die in real life (yet) anywas if you're having issues using vhub or if you'd like to report a bug or submit a suggestion, join our discord server!"
+AnnouncementText.Text = "News: Nothing happened yet lol. anywas if you're having issues using vhub or if you'd like to report a bug or submit a suggestion, join our discord server"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 12
 AnnouncementText.TextWrapped = true
@@ -194,7 +196,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Credits";
-	Text = "Made By: itsyaboivincentt#5315, look at it#7626, Quandale The Dinglish XII#3550";
+	Text = "Made By: itsyaboivincentt, look at it, Quandale The Dinglish XII";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
@@ -208,7 +210,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Is 1.16!";
+	Text = "Current Is 1.17!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -282,7 +284,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.16"
+VersionNum.Text = "Version: 1.17"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -297,7 +299,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Unpatched and updated Keyboard GUI                       -Updated hitbox gui"
+VersionUpdates.Text = "-Updated Vehicle Fly GUI                       -Removed HitBox script                       -Removed infinite yield fixer                       -Removed Chat Bypasser                       -Removed the close button on the VHub Main Page"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 12.000
