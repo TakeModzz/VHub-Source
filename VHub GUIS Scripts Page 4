@@ -190,18 +190,12 @@ EXPLOIT4.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT4.Position = UDim2.new(0.0323741436, 0, 0.345625222, 0)
 EXPLOIT4.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT4.Font = Enum.Font.Gotham
-EXPLOIT4.Text = "Chat Bypasser GUI"
+EXPLOIT4.Text = "Soon"
 EXPLOIT4.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT4.TextScaled = true
 EXPLOIT4.TextSize = 14.000
 EXPLOIT4.TextWrapped = true
 EXPLOIT4.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/raw/unwzKGXb'))()
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script:";
-	Text = "Successfully Executed Chat Bypasser GUI!";
-	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
-Duration = 16;
 end)
 
 UICorner_14.Parent = EXPLOIT4
