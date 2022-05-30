@@ -158,7 +158,7 @@ AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
 AnnouncementText.Text = "News: Nothing happened yet lol. anywas if you're having issues using vhub or if you'd like to report a bug or submit a suggestion, join our discord server"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnnouncementText.TextSize = 12
+AnnouncementText.TextSize = 9
 AnnouncementText.TextWrapped = true
 
 UICorner_12.Parent = AnnouncementText
