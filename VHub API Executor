@@ -283,13 +283,16 @@ Clear.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Clear.Position = UDim2.new(0.263565898, 0, 0.849372387, 0)
 Clear.Size = UDim2.new(0, 112, 0, 27)
 Clear.Font = Enum.Font.Gotham
-Clear.Text = "Clear"
+Clear.Text = "CLEAR"
 Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
 Clear.TextScaled = true
 Clear.TextSize = 14.000
 Clear.TextWrapped = true
 Clear.MouseButton1Down:connect(function()
 TextBoxExecutor.Text = ""
+Clear.Text = "CLEARED"
+wait(1)
+Clear.Text = "CLEAR"
 end)
 
 UICorner_13.Parent = Clear
@@ -300,13 +303,16 @@ Execute.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Execute.Position = UDim2.new(0.684754491, 0, 0.849372387, 0)
 Execute.Size = UDim2.new(0, 112, 0, 27)
 Execute.Font = Enum.Font.Gotham
-Execute.Text = "Execute"
+Execute.Text = "EXECUTE"
 Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
 Execute.TextScaled = true
 Execute.TextSize = 14.000
 Execute.TextWrapped = true
 Execute.MouseButton1Down:connect(function()
 loadstring(TextBoxExecutor.Text)()
+Execute.Text = "EXECUTED"
+wait(1)
+Execute.Text = "EXECUTE"
 end)
 
 UICorner_14.Parent = Execute
