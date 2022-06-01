@@ -156,7 +156,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "News: VHub might receive slow updates due to see issues. Anywas, if you're having issues using VHub or if you'd like to report a bug or submit a suggestion, join our Discord Server!"
+AnnouncementText.Text = "News: VHub might receive slow updates due to some issues. Anywas, if you're having issues using VHub or if you'd like to report a bug or submit a suggestion, join our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 10
 AnnouncementText.TextWrapped = true
@@ -210,7 +210,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Is 1.17!";
+	Text = "Current Is 1.18!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -284,7 +284,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.17"
+VersionNum.Text = "Version: 1.18"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
