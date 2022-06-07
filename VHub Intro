@@ -8,7 +8,13 @@ local VHubLogo = Instance.new("ImageLabel")
 local BeautifulMessage = Instance.new("TextLabel")
 local LoadingText = Instance.new("TextLabel")
 local blur = Instance.new("BlurEffect")
+local TS = game:GetService("TweenService")
+local ContentProvider = game:GetService("ContentProvider")
+local vAsset = {
+    "http://www.roblox.com/asset/?id=9408318893"
+    }
 
+ContentProvider:PreloadAsync(vAsset);
 --Properties:
 
 ScreenGui.Parent = game:GetService("CoreGui").VHubCoreScreen
@@ -19,17 +25,17 @@ ScreenGui.IgnoreGuiInset = true
 BlackTransparentScreen.Name = "Black Transparent Screen"
 BlackTransparentScreen.Parent = ScreenGui
 BlackTransparentScreen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-BlackTransparentScreen.BackgroundTransparency = 0.500
+BlackTransparentScreen.BackgroundTransparency = 1
 BlackTransparentScreen.Size = UDim2.new(1, 0, 1, 0)
 
 VHubLogo.Name = "VHub Logo"
 VHubLogo.Parent = ScreenGui
 VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubLogo.BackgroundTransparency = 1.000
-VHubLogo.Position = UDim2.new(0.447, 0, 0.352, 0)
+VHubLogo.Position = UDim2.new(0.447, 0, 10, 0)
 VHubLogo.Size = UDim2.new(0.165128335, 1, 0.16508539, 0)
 VHubLogo.SizeConstraint = Enum.SizeConstraint.RelativeYY
-VHubLogo.Image = "http://www.roblox.com/asset/?id=9408318893"
+VHubLogo.Image = vAsset[1]
 VHubLogo.ImageTransparency = 1
 
 BeautifulMessage.Name = "Beautiful Message"
@@ -51,101 +57,62 @@ blur.Name = "blur"
 blur.Parent = game.Lighting
 blur.Size = 0
 
-VHubLogo:TweenPosition(UDim2.new(0.447, 0,0.278, 0),"Out","Quint",1,true)
+VHubLogo:TweenPosition(UDim2.new(0.46, 0,0.278, 0),"Out","Quint",1,true)
 BeautifulMessage:TweenPosition(UDim2.new(0.25, 0,0.45, 0),"Out","Quint",1,true)
 
-coroutine.wrap(function()
-while wait() do
-BeautifulMessage.TextTransparency = 1
-VHubLogo.ImageTransparency = 1
-blur.Size = 0
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.9
-VHubLogo.ImageTransparency = 0.9
-blur.Size = 10
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.8
-VHubLogo.ImageTransparency = 0.8
-blur.Size = 20
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.7
-VHubLogo.ImageTransparency = 0.7
-blur.Size = 30
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.6
-VHubLogo.ImageTransparency = 0.6
-blur.Size = 40
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.5
-VHubLogo.ImageTransparency = 0.5
-blur.Size = 50
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.4
-VHubLogo.ImageTransparency = 0.4
-blur.Size = 60
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.3
-VHubLogo.ImageTransparency = 0.3
-blur.Size = 70
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.2
-VHubLogo.ImageTransparency = 0.2
-blur.Size = 80
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.1
-VHubLogo.ImageTransparency = 0.1
-blur.Size = 90
-wait(0.1)
-BeautifulMessage.TextTransparency = 0
-VHubLogo.ImageTransparency = 0
-blur.Size = 100
-wait(1)
-BeautifulMessage.TextTransparency = 0.1
-VHubLogo.ImageTransparency = 0.1
-blur.Size = 90
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.2
-VHubLogo.ImageTransparency = 0.2
-blur.Size = 80
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.3
-VHubLogo.ImageTransparency = 0.3
-blur.Size = 70
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.4
-VHubLogo.ImageTransparency = 0.4
-blur.Size = 60
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.5
-VHubLogo.ImageTransparency = 0.5
-blur.Size = 50
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.6
-VHubLogo.ImageTransparency = 0.6
-BlackTransparentScreen.BackgroundTransparency = 0.6
-blur.Size = 40
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.7
-VHubLogo.ImageTransparency = 0.7
-blur.Size = 30
-BlackTransparentScreen.BackgroundTransparency = 0.7
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.8
-blur.Size = 20
-VHubLogo.ImageTransparency = 0.8
-BlackTransparentScreen.BackgroundTransparency = 0.8
-wait(0.1)
-BeautifulMessage.TextTransparency = 0.9
-VHubLogo.ImageTransparency = 0.9
-BlackTransparentScreen.BackgroundTransparency = 0.9
-blur.Size = 10
-wait(0.1)
-BeautifulMessage.TextTransparency = 1
-VHubLogo.ImageTransparency = 1
-BlackTransparentScreen.BackgroundTransparency = 1
-blur.Size = 0
-wait(0.1)
-blur:Destroy()
+local BS = {
+    BackgroundTransparency = 1
+}
+local BM = {
+    TextTransparency = 1
+}
+local VHub = {
+    ImageTransparency = 1
+}
+local Blur = {
+    Size = 0
+}
+
+local BS2 = {
+    BackgroundTransparency = 0.525
+}
+
+local BM2 = {
+    TextTransparency = 0
+}
+local VHub2 = {
+    ImageTransparency = 0
+}
+local Blur2 = {
+    Size = 100
+}
+
+local TweenInfo001 = TweenInfo.new(1, Enum.EasingStyle.Quart, Enum.EasingDirection.In)
+local TweenInfo002 = TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.In)
+
+local BSP = TS:Create(BlackTransparentScreen, TweenInfo001, BS)
+local BMP = TS:Create(BeautifulMessage, TweenInfo001, BM)
+local VHubP = TS:Create(VHubLogo, TweenInfo001, VHub)
+local BlurP = TS:Create(blur, TweenInfo001, Blur)
+
+local BSP2 = TS:Create(BlackTransparentScreen,TweenInfo001,BS2)
+local BMP2 = TS:Create(BeautifulMessage, TweenInfo001, BM2)
+local VHubP2 = TS:Create(VHubLogo, TweenInfo001, VHub2)
+local BlurP2 = TS:Create(blur, TweenInfo001, Blur2)
+
+BSP2:Play()
+BMP2:Play()
+VHubP2:Play()
+BlurP2:Play()
+delay(2.5,function()
+task.spawn(function()
+BSP:Play()
+BMP:Play()
+VHubP:Play()
+VHubLogo:TweenPosition(UDim2.new(0.46,0,10,0),"In","Quint",2.5)
+BlurP:Play()
+delay(1, function()
 ScreenGui:Destroy()
-end
-end)()
+end)
+end)
+    end)
