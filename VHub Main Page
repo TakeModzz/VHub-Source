@@ -11,9 +11,28 @@ repeat wait() until game:IsLoaded()
 
 pcall(function() getgenv().VHub_LOADED = true end)
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lookatit7626/LAT/main/Owner%20Display%20VHUB'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Page%20Authenticator'),true))()
 
+game.Players.PlayerAdded:connect(function(player)
+
+if player.Name == "itsyaboivincentt" then
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Owner Joined!";
+		Text = "Vhub System: Vincent Aka VHub Owner Joined This Server!";
+		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+	Duration = 16;
+     	game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] itsyaboivincentt" 
+end
+
+if player.Name == "ChilliChicken3" then
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Owner Joined!";
+		Text = "Vhub System: Look At It Aka VHub Dev Joined This Server!";
+		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+	Duration = 16;
+     	game:GetService("Players").ChilliChicken3.DisplayName = "[⭐] iChilliChicken3"
+end
+end)
 -- Gui to Lua
 -- Version: 3.2
 
@@ -156,7 +175,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "News: Our discord server had a little revamp. Anyway, if you're having issues using VHub or if you'd like to report a bug or submit a suggestion, join our Discord Server!"
+AnnouncementText.Text = "News: Our Discord Server Had A Little Revamp. Anyway, If You're Having Issues Using VHub Or If You'd Like To Report A Bug Or Submit A Suggestion, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 10
 AnnouncementText.TextWrapped = true
@@ -196,7 +215,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Credits";
-	Text = "Made By: itsyaboivincentt, look at it, Quandale The Dinglish XII";
+	Text = "Made By: itsyaboivincentt, look at it And Quandale The Dinglish XII";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
@@ -210,7 +229,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Is 1.18!";
+	Text = "Current Version Is 1.18!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -299,7 +318,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Updated build a boat for treasure autofarm script                       -Removed Server Browser                       -Added Unanchored parts GUI                        -Updated API Executor"
+VersionUpdates.Text = "-Updated Build A Boat For Treasure Autofarm Script                       -Removed Server Browser                       -Added Unanchored Parts GUI                        -Updated API Executor"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 9.000
