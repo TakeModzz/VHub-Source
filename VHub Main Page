@@ -223,8 +223,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Credits";
-	Text = "Made By: itsyaboivincentt, look at it, Quan"
-";
+	Text = "Made By: itsyaboivincentt, look at it, Quan";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
