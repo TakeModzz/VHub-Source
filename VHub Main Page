@@ -32,6 +32,14 @@ if player.Name == "ChilliChicken3" then
 	Duration = 16;
      	game:GetService("Players").ChilliChicken3.DisplayName = "[⭐] iChilliChicken3"
 end
+if player.Name == "Number12_KOKC" then
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Owner Joined!";
+		Text = "Vhub System: Quan Aka VHub Dev Joined This Server!";
+		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+	Duration = 16;
+     	game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] Quan"
+end
 end)
 -- Gui to Lua
 -- Version: 3.2
@@ -175,7 +183,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "News: Our Discord Server Had A Little Revamp. Anyway, If You're Having Issues Using VHub Or If You'd Like To Report A Bug Or Submit A Suggestion, Join Our Discord Server!"
+AnnouncementText.Text = "News: Sorry for the delayed updates, we were busy with our server. If you're having issues using Vhub or if you'd like to report a bug Or submit a suggestion, Join Our Discord Server!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 10
 AnnouncementText.TextWrapped = true
@@ -215,7 +223,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Credits";
-	Text = "Made By: itsyaboivincentt, look at it And Quandale The Dinglish XII";
+	Text = "Made By: itsyaboivincentt, look at it, Quan"
+";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(5)
@@ -229,7 +238,7 @@ wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Version:";
-	Text = "Current Version Is 1.18!";
+	Text = "Current Version Is 1.19!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 wait(3)
@@ -303,7 +312,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.18"
+VersionNum.Text = "Version: 1.19"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -318,7 +327,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Updated Build A Boat For Treasure Autofarm Script                       -Removed Server Browser                       -Added Unanchored Parts GUI                        -Updated API Executor"
+VersionUpdates.Text = "-Fixed a bug in the keyboard gui v2                       -Updated intro"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 9.000
@@ -372,7 +381,7 @@ Others.BackgroundTransparency = 1
 Others.Position = UDim2.new(0.0649999976, 0, 0.870, 0)
 Others.Size = UDim2.new(0, 130, 0, 18)
 Others.Font = Enum.Font.Gotham
-Others.Text = "look at it#7626, Quandale The Dinglish XII#3550"
+Others.Text = "look at it#7626, Quan#0002"
 Others.TextColor3 = Color3.fromRGB(200, 200, 200)
 Others.TextScaled = false
 Others.TextSize = 8.5
