@@ -16,6 +16,7 @@ DragScreen.ResetOnSpawn = false
 
 -- Instances:
 
+local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
@@ -57,7 +58,7 @@ VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 Version.Name = "Version"
 Version.Parent = DesignFrame
@@ -65,7 +66,7 @@ Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1
 Version.Position = UDim2.new(0.0778552794, 0, 0.100000009, 0)
 Version.Size = UDim2.new(0, 300, 0, 25)
-Version.Font = Enum.Font.Gotham
+Version.Font = Enum.Font.GothamSemibold
 Version.Text = "VHub | Page Error"
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 Version.TextSize = 14.000
@@ -78,14 +79,14 @@ VHubIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubIcon.BackgroundTransparency = 1.000
 VHubIcon.Position = UDim2.new(0.434108526, 0, 0.138075307, 0)
 VHubIcon.Size = UDim2.new(0, 50, 0, 50)
-VHubIcon.Image = "rbxassetid://8036184551"
+VHubIcon.Image = "rbxassetid://9408318893"
 
 VHubImageLabel.Name = "VHubImageLabel"
 VHubImageLabel.Parent = DesignFrame
 VHubImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImageLabel.BackgroundTransparency = 1.000
 VHubImageLabel.Size = UDim2.new(0, 34, 0, 33)
-VHubImageLabel.Image = "rbxassetid://8036184551"
+VHubImageLabel.Image = "rbxassetid://9408318893"
 
 UhOhText.Name = "Uh Oh Text"
 UhOhText.Parent = DragFrame
@@ -93,7 +94,7 @@ UhOhText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 UhOhText.BackgroundTransparency = 1.000
 UhOhText.Position = UDim2.new(0.240310073, 0, 0.347280324, 0)
 UhOhText.Size = UDim2.new(0, 200, 0, 26)
-UhOhText.Font = Enum.Font.Gotham
+UhOhText.Font = Enum.Font.GothamSemibold
 UhOhText.Text = "Error While Getting Page Source"
 UhOhText.TextColor3 = Color3.fromRGB(255, 255, 255)
 UhOhText.TextScaled = true
@@ -120,7 +121,7 @@ Message1.BackgroundTransparency = 1.000
 Message1.Position = UDim2.new(0.191214472, 0, 0.456066906, 0)
 Message1.Size = UDim2.new(0, 238, 0, 44)
 Message1.SizeConstraint = Enum.SizeConstraint.RelativeYY
-Message1.Font = Enum.Font.Gotham
+Message1.Font = Enum.Font.GothamSemibold
 Message1.Text = "Description:"
 Message1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Message1.TextSize = 14.000
@@ -136,7 +137,7 @@ Message2.Position = UDim2.new(0.191, 0, 0.490, 0)
 Message2.Size = UDim2.new(0, 238, 0, 100)
 Message2.SizeConstraint = Enum.SizeConstraint.RelativeYY
 Message2.Font = Enum.Font.Gotham
-Message2.Text = "Page Isnt Fully Done Or Finished"
+Message2.Text = "There Was A Problem Loading The Page Due To Some Errors. Please Try Again Later Or Join Our Discord Server To Report This Problem."
 Message2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Message2.TextSize = 14.000
 Message2.TextWrapped = true
@@ -144,12 +145,12 @@ Message2.TextXAlignment = Enum.TextXAlignment.Left
 
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
 
-local DarkerTheme = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
 
-DarkerTheme.Name = "DarkerTheme"
-DarkerTheme.Parent = Workspace
-DarkerTheme.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-DarkerTheme.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
-DarkerTheme.Size = UDim2.new(0, 387, 0, 239)
-DarkerTheme.Active = false
-DarkerTheme.Visible = false
+MainFrame.Name = "DarkerTheme"
+MainFrame.Parent = Workspace
+MainFrame.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MainFrame.Position = UDim2.new(0.197183102, 0, 0.166739315, 0)
+MainFrame.Size = UDim2.new(0, 387, 0, 239)
+MainFrame.Active = false
+MainFrame.Visible = false
