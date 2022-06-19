@@ -21,7 +21,7 @@ if player.Name == "itsyaboivincentt" then
 		Text = "Vhub System: Vincent Aka VHub Owner Joined This Server!";
 		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 	Duration = 16;
-     	game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] itsyaboivincentt" 
+     	game:GetService("Players").itsyaboivincentt.DisplayName = "[â­] itsyaboivincentt" 
 end
 
 if player.Name == "ChilliChicken3" then
@@ -30,7 +30,7 @@ if player.Name == "ChilliChicken3" then
 		Text = "Vhub System: Look At It Aka VHub Dev Joined This Server!";
 		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 	Duration = 16;
-     	game:GetService("Players").ChilliChicken3.DisplayName = "[⭐] iChilliChicken3"
+     	game:GetService("Players").ChilliChicken3.DisplayName = "[â­] iChilliChicken3"
 end
 if player.Name == "Number12_KOKC" then
 		game:GetService("StarterGui"):SetCore("SendNotification", { 
@@ -38,7 +38,7 @@ if player.Name == "Number12_KOKC" then
 		Text = "Vhub System: Quan Aka VHub Dev Joined This Server!";
 		Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 	Duration = 16;
-     	game:GetService("Players").itsyaboivincentt.DisplayName = "[⭐] Quan"
+     	game:GetService("Players").itsyaboivincentt.DisplayName = "[â­] Quan"
 end
 end)
 -- Gui to Lua
@@ -50,7 +50,7 @@ local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local DesignFrame = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
---local X = Instance.new("TextButton") --retards 🗿
+--local X = Instance.new("TextButton") --retards ðŸ—¿
 local VHubImageLabel = Instance.new("ImageLabel")
 local Version = Instance.new("TextLabel")
 local ScriptsNames = Instance.new("Frame")
@@ -183,7 +183,7 @@ AnnouncementText.BackgroundTransparency = 0
 AnnouncementText.Position = UDim2.new(0.015, 0, 0.347, 0)
 AnnouncementText.Size = UDim2.new(0, 220, 0, 110)
 AnnouncementText.Font = Enum.Font.Gotham
-AnnouncementText.Text = "A HUGE UPDATE IS COMING. Join our discord for more information."
+AnnouncementText.Text = "New GUI Made By Quan! Soon. Anyways If You're Having Trouble Using VHub Or VHub Have Some Bugs, Join Our Discord Server To Report It!"
 AnnouncementText.TextColor3 = Color3.fromRGB(255, 255, 255)
 AnnouncementText.TextSize = 10
 AnnouncementText.TextWrapped = true
@@ -311,7 +311,7 @@ VersionNum.BackgroundTransparency = 0
 VersionNum.Position = UDim2.new(0.0649999976, 0, 0.0199999996, 0)
 VersionNum.Size = UDim2.new(0, 130, 0, 18)
 VersionNum.Font = Enum.Font.GothamSemibold
-VersionNum.Text = "Version: 1.19"
+VersionNum.Text = "Version: 1.20"
 VersionNum.TextColor3 = Color3.fromRGB(255, 255, 255)
 VersionNum.TextScaled = true
 VersionNum.TextSize = 14.000
@@ -326,7 +326,7 @@ VersionUpdates.BackgroundTransparency = 0
 VersionUpdates.Position = UDim2.new(0.0649999976, 0, 0.15, 0)
 VersionUpdates.Size = UDim2.new(0, 130, 0, 160)
 VersionUpdates.Font = Enum.Font.Gotham
-VersionUpdates.Text = "-Fixed a bug in the keyboard gui v2                       -Updated intro"
+VersionUpdates.Text = "-Added Revager                                                -Added Weird Bird Animation                                        -Added Set Spawn Point"
 VersionUpdates.TextColor3 = Color3.fromRGB(200, 200, 200)
 VersionUpdates.TextScaled = false
 VersionUpdates.TextSize = 11.000
