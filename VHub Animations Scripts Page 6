@@ -234,6 +234,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Script:";
 	Text = "Successfully Executed Amogus V2!";
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_15.Parent = EXPLOIT5
@@ -244,12 +245,19 @@ EXPLOIT6.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT6.Position = UDim2.new(0.683453262, 0, 0.345625222, 0)
 EXPLOIT6.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT6.Font = Enum.Font.Gotham
-EXPLOIT6.Text = "Soon" 
+EXPLOIT6.Text = "Ravager (R6)" 
 EXPLOIT6.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT6.TextScaled = true
 EXPLOIT6.TextSize = 14.000
 EXPLOIT6.TextWrapped = true
 EXPLOIT6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Ravager"))()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed Ravager!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_16.Parent = EXPLOIT6
@@ -260,12 +268,19 @@ EXPLOIT7.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT7.Position = UDim2.new(0.0323741436, 0, 0.64, 0)
 EXPLOIT7.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT7.Font = Enum.Font.Gotham
-EXPLOIT7.Text = "Soon"
+EXPLOIT7.Text = "Weird Bird Animation (R6)"
 EXPLOIT7.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT7.TextScaled = true
 EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Weird%20Bird%20Animation"))()
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed Weird Bird Animation!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_17.Parent = EXPLOIT7
