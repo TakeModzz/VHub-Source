@@ -321,18 +321,12 @@ EXPLOIT9.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 EXPLOIT9.Position = UDim2.new(0.683453262, 0, 0.64, 0)
 EXPLOIT9.Size = UDim2.new(0, 70, 0, 32)
 EXPLOIT9.Font = Enum.Font.Gotham
-EXPLOIT9.Text = "Floppa ( R6 / R15 )"  
+EXPLOIT9.Text = "Soon"  
 EXPLOIT9.TextColor3 = Color3.fromRGB(255, 255, 255)
 EXPLOIT9.TextScaled = true
 EXPLOIT9.TextSize = 14.000
 EXPLOIT9.TextWrapped = true
 EXPLOIT9.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lookatit7626/LAT/main/Floppa"))()
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Script:";
-	Text = "Successfully Executed Floppa Animations!";
-	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
-Duration = 16;
 end)
 
 UICorner_19.Parent = EXPLOIT9
@@ -366,6 +360,10 @@ NextPage.TextColor3 = Color3.fromRGB(255, 255, 255)
 NextPage.TextScaled = true
 NextPage.TextSize = 14.000
 NextPage.TextWrapped = true
+NextPage.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/VHub-Source/main/VHub%20Animations%20Scripts%20Page%207'),true))()
+MainFrame:Destroy()
+end)
 
 UICorner_21.Parent = NextPage
 
