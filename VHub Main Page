@@ -146,7 +146,7 @@ Continue.TextColor3 = Color3.fromRGB(0, 0, 0)
 Continue.TextScaled = true
 Continue.MouseButton1Down:connect(function()
 Continue.Text = "Copied To Clipboard!"
-setclipboard("https://discord.gg/GUwX8B29pq")
+setclipboard("https://discord.gg/3NN5zTW7h2")
 end)
 
 UICorner_14.Parent = Continue
