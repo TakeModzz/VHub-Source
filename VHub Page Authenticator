@@ -143,8 +143,6 @@ Message2.TextSize = 14.000
 Message2.TextWrapped = true
 Message2.TextXAlignment = Enum.TextXAlignment.Left
 
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
-
 local MainFrame = Instance.new("Frame")
 
 MainFrame.Name = "DarkerTheme"
