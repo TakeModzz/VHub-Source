@@ -54,3 +54,4 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stu
 _G.Tablesettings.balk = true 
 Settingssave()
 end
+
