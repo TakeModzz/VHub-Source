@@ -50,7 +50,7 @@ Settingsload()
 if getgenv().VHKeySys_LOADED == true then
 print("Running...")
 else
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
 _G.Tablesettings.balk = true 
 Settingssave()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
 end
