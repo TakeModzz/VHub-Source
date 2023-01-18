@@ -1,4 +1,56 @@
+_G.settingsTable = {
+KeySystem = true;
+}
+
+for i,v in pairs(_G.settingsTable) do 
+end
+
+local filename = "KeySV(3).txt";
+
+function loadSettings()
+local HttpService = game:GetService("HttpService")
+if (readfile and isfile and isfile(filename)) then
+_G.settingsTable = HttpService:JSONDecode(readfile(filename));
+for i,v in pairs(_G.settingsTable) do 
+end
+end
+end
+
+loadSettings()
+
+_G.Tablesettings = {
+balk = false;
+}
+
+for i,v in pairs(_G.Tablesettings) do 
+end
+
+local namefile = "balk.txt";
+
+function Settingsload()
+local HttpService = game:GetService("HttpService")
+if (readfile and isfile and isfile(namefile)) then
+_G.Tablesettings = HttpService:JSONDecode(readfile(namefile));
+for i,v in pairs(_G.Tablesettings) do 
+end
+end
+end
+
+function Settingssave()
+local json;
+local HttpService = game:GetService("HttpService"); 
+if (writefile) then
+json = HttpService:JSONEncode(_G.Tablesettings);
+writefile(namefile, json);
+end
+end
+
+Settingsload()
+
 if getgenv().VHKeySys_LOADED == true then
+_G.Tablesettings.balk = true 
+Settingssave()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
 print("Running...")
 else
 game:Shutdown()
