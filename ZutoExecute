@@ -18,6 +18,39 @@ end
 
 loadSettings()
 
+_G.Tablesettings = {
+balk = false;
+}
+
+for i,v in pairs(_G.Tablesettings) do 
+end
+
+local namefile = "balk.txt";
+
+function Settingsload()
+local HttpService = game:GetService("HttpService")
+if (readfile and isfile and isfile(namefile)) then
+_G.Tablesettings = HttpService:JSONDecode(readfile(namefile));
+for i,v in pairs(_G.Tablesettings) do 
+end
+end
+end
+
+function Settingssave()
+local json;
+local HttpService = game:GetService("HttpService"); 
+if (writefile) then
+json = HttpService:JSONEncode(_G.Tablesettings);
+writefile(namefile, json);
+end
+end
+
+Settingsload()
+
 if _G.settingsTable.KeySystem == true then
-game:Shutdown()
+
+_G.Tablesettings.balk = true 
+Settingssave()
+game:GetService("CoreGui").VHubCoreScreen:Destroy()
+game:GetService("CoreGui").LaunchScreen:Destroy()
 end
