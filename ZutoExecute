@@ -53,3 +53,4 @@ _G.Tablesettings.balk = true
 Settingssave()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
 end
+
