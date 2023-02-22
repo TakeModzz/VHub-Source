@@ -1,0 +1,42 @@
+
+KeySystemText.Name = "KeySystemText"
+KeySystemText.Parent = StarterGui.ScreenGui.MainFrame.InfoFrame.InfoFrame.Folder
+KeySystemText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeySystemText.BackgroundTransparency = 1.000
+KeySystemText.Position = UDim2.new(0.0315788984, 0, 0.900901079, 0)
+KeySystemText.Size = UDim2.new(0, 180, 0, 10)
+KeySystemText.Font = Enum.Font.GothamMedium
+KeySystemText.Text = "Next Key System:"
+KeySystemText.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeySystemText.TextSize = 10.000
+KeySystemText.TextWrapped = true
+KeySystemText.TextXAlignment = Enum.TextXAlignment.Left
+KeySystemText.TextYAlignment = Enum.TextYAlignment.Top
+
+PositionText.Name = "PositionText"
+PositionText.Parent = StarterGui.ScreenGui.MainFrame.InfoFrame.InfoFrame.Folder
+PositionText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PositionText.BackgroundTransparency = 1.000
+PositionText.Position = UDim2.new(0.0315789469, 0, 0.540540695, 0)
+PositionText.Size = UDim2.new(0, 180, 0, 30)
+PositionText.Font = Enum.Font.GothamMedium
+PositionText.Text = "Position: "
+PositionText.TextColor3 = Color3.fromRGB(255, 255, 255)
+PositionText.TextSize = 10.000
+PositionText.TextWrapped = true
+PositionText.TextXAlignment = Enum.TextXAlignment.Left
+PositionText.TextYAlignment = Enum.TextYAlignment.Top
+
+ExecutorText.Name = "ExecutorText"
+ExecutorText.Parent = StarterGui.ScreenGui.MainFrame.InfoFrame.InfoFrame.Folder
+ExecutorText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorText.BackgroundTransparency = 1.000
+ExecutorText.Position = UDim2.new(0.0315789469, 0, 0.810810983, 0)
+ExecutorText.Size = UDim2.new(0, 180, 0, 10)
+ExecutorText.Font = Enum.Font.GothamMedium
+ExecutorText.Text = "Executor: "
+ExecutorText.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorText.TextSize = 10.000
+ExecutorText.TextWrapped = true
+ExecutorText.TextXAlignment = Enum.TextXAlignment.Left
+ExecutorText.TextYAlignment = Enum.TextYAlignment.Top
